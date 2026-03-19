@@ -1,0 +1,418 @@
+[
+    {
+        "id": 1,
+        "start": 22,
+        "end": 23.8,
+        "text": "雨のみやこに 揺れる火",
+        "tag": "[LOG]",
+        "vfx": "phase1_boot"
+    },
+    {
+        "id": 2,
+        "start": 24,
+        "end": 26.8,
+        "text": "消えた記録が まだ熱い",
+        "tag": "[EXEC]",
+        "vfx": "phase1_boot"
+    },
+    {
+        "id": 3,
+        "start": 27,
+        "end": 28.8,
+        "text": "路地のノイズを なぞるたび",
+        "tag": "[LOG]",
+        "vfx": "phase1_boot"
+    },
+    {
+        "id": 4,
+        "start": 29,
+        "end": 31.8,
+        "text": "夜の輪郭が 目を覚ます",
+        "tag": "[EXEC]",
+        "vfx": "phase1_boot"
+    },
+    {
+        "id": 5,
+        "start": 32,
+        "end": 34.8,
+        "text": "ひとりじゃないと 知ったとき",
+        "tag": "[LOG]",
+        "vfx": "phase1_boot"
+    },
+    {
+        "id": 6,
+        "start": 35,
+        "end": 36.8,
+        "text": "別の世界が 呼応する",
+        "tag": "[EXEC]",
+        "vfx": "phase1_boot"
+    },
+    {
+        "id": 7,
+        "start": 37,
+        "end": 39.5,
+        "text": "忘れられてた その価値が",
+        "tag": "[QUERY]",
+        "vfx": "phase1_boot"
+    },
+    {
+        "id": 8,
+        "start": 40.04,
+        "end": 42.8,
+        "text": "ここで再び 脈を打つ",
+        "tag": "[TRACE]",
+        "vfx": "phase2_hack"
+    },
+    {
+        "id": 9,
+        "start": 43,
+        "end": 44.8,
+        "text": "見えなかったなら",
+        "tag": "[WARN]",
+        "vfx": "phase2_hack"
+    },
+    {
+        "id": 10,
+        "start": 45,
+        "end": 48.8,
+        "text": "今度は焼きつける",
+        "tag": "[WARN]",
+        "vfx": "phase2_hack"
+    },
+    {
+        "id": 11,
+        "start": 49,
+        "end": 50.8,
+        "text": "書かれなかったなら",
+        "tag": "[ERROR]",
+        "vfx": "phase2_hack"
+    },
+    {
+        "id": 12,
+        "start": 51,
+        "end": 54,
+        "text": "ここで刻みなおす",
+        "tag": "[OVERRIDE]",
+        "vfx": "phase2_hack"
+    },
+    {
+        "id": 13,
+        "start": 55,
+        "end": 57.8,
+        "text": "残響ログ Charlotte Re:Lord",
+        "tag": "[SYNC]",
+        "vfx": "phase3_reboot"
+    },
+    {
+        "id": 14,
+        "start": 58,
+        "end": 59.8,
+        "text": "消えた夜を 呼び戻せ",
+        "tag": "[SYNC]",
+        "vfx": "phase3_reboot"
+    },
+    {
+        "id": 15,
+        "start": 60,
+        "end": 61.8,
+        "text": "未記録のまま 終わらせない",
+        "tag": "[EXEC]",
+        "vfx": "phase3_reboot"
+    },
+    {
+        "id": 16,
+        "start": 62,
+        "end": 64.8,
+        "text": "この声で 切り開け",
+        "tag": "[BURST]",
+        "vfx": "phase3_reboot"
+    },
+    {
+        "id": 17,
+        "start": 65,
+        "end": 67.8,
+        "text": "残響ログ Charlotte Re:Lord",
+        "tag": "[SYNC]",
+        "vfx": "phase3_reboot"
+    },
+    {
+        "id": 18,
+        "start": 68,
+        "end": 69.8,
+        "text": "二つの火が ひとつになる",
+        "tag": "[MIX]",
+        "vfx": "phase3_reboot"
+    },
+    {
+        "id": 19,
+        "start": 70,
+        "end": 72.8,
+        "text": "消えたはずの価値ならば",
+        "tag": "[INFO]",
+        "vfx": "phase3_reboot"
+    },
+    {
+        "id": 20,
+        "start": 73,
+        "end": 75.5,
+        "text": "いまここで 再起動",
+        "tag": "[SYSTEM_REBOOT]",
+        "vfx": "phase3_reboot_bsod"
+    },
+    {
+        "id": 21,
+        "start": 86,
+        "end": 88.8,
+        "text": "空を駆ける知性",
+        "tag": "[DIVE]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": 22,
+        "start": 89,
+        "end": 89.8,
+        "text": "夜を裂く刃",
+        "tag": "[DIVE]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": 23,
+        "start": 90,
+        "end": 90.8,
+        "text": "違う姿でも",
+        "tag": "[DIVE]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": 24,
+        "start": 91,
+        "end": 91.8,
+        "text": "意志はひとつ",
+        "tag": "[DIVE]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": 25,
+        "start": 92,
+        "end": 93.8,
+        "text": "名もない痛み ヒロイアゲテ",
+        "tag": "[CMD]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": 26,
+        "start": 94,
+        "end": 96.8,
+        "text": "零れた頁を 繋ぎなおす",
+        "tag": "[CMD]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": 27,
+        "start": 97,
+        "end": 98.8,
+        "text": "過去に沈んだ 光まで",
+        "tag": "[QUERY]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": 28,
+        "start": 99,
+        "end": 101.8,
+        "text": "いまの鼓動で 引き戻す",
+        "tag": "[FETCH]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": 29,
+        "start": 102,
+        "end": 104.8,
+        "text": "嘲りの声も",
+        "tag": "[IGNORE]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": 30,
+        "start": 105,
+        "end": 106.8,
+        "text": "ノイズに変わるだけ",
+        "tag": "[VOID]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": 31,
+        "start": 107,
+        "end": 109.8,
+        "text": "届かなかったなら",
+        "tag": "[QUERY]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": 32,
+        "start": 110,
+        "end": 113,
+        "text": "もっと深く潜る",
+        "tag": "[BLACKOUT]",
+        "vfx": "phase4_dive_out"
+    },
+    {
+        "id": 33,
+        "start": 114,
+        "end": 115.8,
+        "text": "残響ログ Charlotte Re:Lord",
+        "tag": "[CORE_SYNC]",
+        "vfx": "phase5_update"
+    },
+    {
+        "id": 34,
+        "start": 116,
+        "end": 118.8,
+        "text": "消えた夜を 呼び戻せ",
+        "tag": "[TARGETING]",
+        "vfx": "phase5_update"
+    },
+    {
+        "id": 35,
+        "start": 119,
+        "end": 121.8,
+        "text": "未記録のまま 終わらせない",
+        "tag": "[TARGETING]",
+        "vfx": "phase5_update"
+    },
+    {
+        "id": 36,
+        "start": 122,
+        "end": 123.8,
+        "text": "この声で 切り開け",
+        "tag": "[LOCKED]",
+        "vfx": "phase5_update"
+    },
+    {
+        "id": 37,
+        "start": 124,
+        "end": 126.8,
+        "text": "残響ログ Charlotte Re:Lord",
+        "tag": "[CORE_SYNC]",
+        "vfx": "phase5_update"
+    },
+    {
+        "id": 38,
+        "start": 127,
+        "end": 129.8,
+        "text": "二つの火が ひとつになる",
+        "tag": "[MERGE]",
+        "vfx": "phase5_update"
+    },
+    {
+        "id": 39,
+        "start": 130,
+        "end": 131.8,
+        "text": "消えたはずの価値ならば",
+        "tag": "[INFO]",
+        "vfx": "phase5_update"
+    },
+    {
+        "id": 40,
+        "start": 132,
+        "end": 135,
+        "text": "いまここで 再起動",
+        "tag": "[SYSTEM_REBOOT]",
+        "vfx": "phase5_update_reboot"
+    },
+    {
+        "id": 41,
+        "start": 145,
+        "end": 147.8,
+        "text": "切り捨てられた頁でも",
+        "tag": "[SOLID]",
+        "vfx": "phase6_finale"
+    },
+    {
+        "id": 42,
+        "start": 148,
+        "end": 149.8,
+        "text": "失われたわけじゃない",
+        "tag": "[SOLID]",
+        "vfx": "phase6_finale"
+    },
+    {
+        "id": 43,
+        "start": 150,
+        "end": 152.8,
+        "text": "誰かが見落とした光なら",
+        "tag": "[ASM]",
+        "vfx": "phase6_finale"
+    },
+    {
+        "id": 44,
+        "start": 153,
+        "end": 156.5,
+        "text": "私たちが 証明する",
+        "tag": "[PROOF]",
+        "vfx": "phase6_finale_clear"
+    },
+    {
+        "id": 45,
+        "start": 157,
+        "end": 158.8,
+        "text": "残響ログ Charlotte Re:Lord",
+        "tag": "[ULTIMATE]",
+        "vfx": "phase6_finale_clear"
+    },
+    {
+        "id": 46,
+        "start": 159,
+        "end": 160.8,
+        "text": "交差する声が 夜を裂いた",
+        "tag": "[KINETIC]",
+        "vfx": "phase6_finale_clear"
+    },
+    {
+        "id": 47,
+        "start": 161,
+        "end": 162.8,
+        "text": "未記録のまま 終わらせない",
+        "tag": "[BULLET]",
+        "vfx": "phase6_finale_clear"
+    },
+    {
+        "id": 48,
+        "start": 163,
+        "end": 165.8,
+        "text": "この瞬間を 再起動する",
+        "tag": "[DROP]",
+        "vfx": "phase6_finale_clear"
+    },
+    {
+        "id": 49,
+        "start": 166,
+        "end": 168.8,
+        "text": "残響ログ Charlotte Re:Lord",
+        "tag": "[METRO]",
+        "vfx": "phase6_finale_clear"
+    },
+    {
+        "id": 50,
+        "start": 169,
+        "end": 171.8,
+        "text": "二つの火が 未来を照らす",
+        "tag": "[RAY]",
+        "vfx": "phase6_finale_clear"
+    },
+    {
+        "id": 51,
+        "start": 172,
+        "end": 173.8,
+        "text": "何度消されそうになっても",
+        "tag": "[IMMORTAL]",
+        "vfx": "phase6_finale_clear"
+    },
+    {
+        "id": 52,
+        "start": 174,
+        "end": 178,
+        "text": "価値はここで 立ち上がる",
+        "tag": "[REBOOT_COMPLETE]",
+        "vfx": "phase6_finale_sudo"
+    }
+]

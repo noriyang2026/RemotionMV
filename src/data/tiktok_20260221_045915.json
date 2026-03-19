@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-02-21T04:59:15.994470",
+  "title": "AIで始める！夢のコンセプトアート制作術",
+  "theme": "AIを使えば、初心者でもプロレベルのコンセプトアートが作れる！",
+  "preset": "シャルロット・シグネチャー",
+  "music_file": "shutfullslot.wav",
+  "hashtags": [
+    "#AI生成",
+    "#シャルロット",
+    "#コンセプトアート"
+  ],
+  "beats": [
+    {
+      "beat": "Hook（0-5秒）",
+      "script": "え、これがAI！？",
+      "visual": "AIが生成した美しいコンセプトアートが次々と表示される。最後にシャルロットが微笑む。",
+      "image_prompt": "A breathtakingly beautiful concept art of a futuristic cityscape, glowing with soft pink and gold light, ethereal mist, Charlotte signature style, masterpiece"
+    },
+    {
+      "beat": "展開（5-40秒）",
+      "script": "「難しそう…」って思ってない？大丈夫！今回は、AIを使って誰でも簡単に、夢のようなコンセプトアートを作る方法を教えちゃいます！まずは、AIにイメージを伝えるプロンプトを作成。ポイントは、具体的に、そして魅力的に！例えば…",
+      "visual": "シャルロットがPCで作業している様子。プロンプトの例が画面に表示される。「futuristic cityscape, glowing with soft pink and gold light」",
+      "image_prompt": "Charlotte working on a computer, surrounded by soft pink and gold light, ethereal mist, screen displaying code and concept art, Charlotte signature style, masterpiece"
+    },
+    {
+      "beat": "クライマックス（40-55秒）",
+      "script": "プロンプトを入力したら、あとはAIにおまかせ！数分後…ほら！こんなに素敵なコンセプトアートが完成！色味や細部を調整すれば、さらにクオリティアップ！",
+      "visual": "AIがコンセプトアートを生成する過程を早送りで表示。完成した美しいアートが画面いっぱいに広がる。Photoshop等で色味を調整している様子も。",
+      "image_prompt": "AI generating a futuristic cityscape, soft pink and gold light, ethereal mist, Charlotte signature style, masterpiece, time-lapse, finished artwork displayed prominently"
+    },
+    {
+      "beat": "CTA（55-60秒）",
+      "script": "あなたもAIで、夢を形にしてみませんか？フォロー＆保存で、さらに詳しい情報をお届け！",
+      "visual": "完成したコンセプトアートが背景に、シャルロットが笑顔で手を振る。フォローボタン、保存ボタンが表示される。",
+      "image_prompt": "Charlotte smiling and waving, surrounded by her signature soft pink and gold light, a beautiful futuristic cityscape in the background, follow and save buttons, masterpiece"
+    }
+  ],
+  "subtitles": [
+    {
+      "from": 0,
+      "to": 5,
+      "text": "え、これがAI!?"
+    },
+    {
+      "from": 5,
+      "to": 20,
+      "text": "難しそう…って思ってない？大丈夫！"
+    },
+    {
+      "from": 20,
+      "to": 40,
+      "text": "AIで誰でも簡単に夢のようなコンセプトアートを！"
+    },
+    {
+      "from": 40,
+      "to": 55,
+      "text": "プロンプト入力！数分後…こんなに素敵！"
+    },
+    {
+      "from": 55,
+      "to": 60,
+      "text": "あなたも夢を形に！フォロー＆保存！"
+    }
+  ]
+}

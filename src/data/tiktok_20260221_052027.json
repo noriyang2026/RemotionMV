@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-02-21T05:20:27.622802",
+  "title": "AIアート爆誕！幻想的な風景を創り出す魔法",
+  "theme": "AIを使って、まるで夢のような美しい風景を簡単に創り出す方法を紹介します。",
+  "preset": "シャルロット・シグネチャー",
+  "music_file": "shutfullslot.wav",
+  "hashtags": [
+    "#AI生成",
+    "#AIアート",
+    "#風景画",
+    "#デジタルアート",
+    "#シャルロット",
+    "#キャメロット",
+    "#簡単AIアート"
+  ],
+  "beats": [
+    {
+      "beat": "Hook（0-5秒）",
+      "script": "「え？これ全部AIで作ったの？」",
+      "visual": "シャルロットが生成した、息を呑むような幻想的な風景の静止画。タイトルが表示される。",
+      "image_prompt": "A breathtaking, ethereal landscape created with artificial intelligence, featuring a luminous, dreamlike quality. Soft pink and gold hues. A mystical, goddess-like atmosphere. Cinematic lighting, soft focus, and dreamy atmosphere. Digital art, ultra-detailed, 8k. --ar 16:9 --style expressive --s 750"
+    },
+    {
+      "beat": "展開（5-40秒）",
+      "script": "AIアート、興味あるけど難しそう…って思ってる？大丈夫！今回は、誰でも簡単に始められる生成AIを使った風景画の作り方、教えちゃう！まずは、あなたの頭の中にある風景を言葉にするんだ。次に、AIにその言葉を伝えて、魔法をかけるだけ！ポイントは、具体的な言葉で指示すること。例えば…",
+      "visual": "シャルロットがPCに向かい、AI画像生成ツールを操作する様子。プロンプトを入力し、生成ボタンを押す。途中で生成された画像を見ながら微調整を加える様子も。",
+      "image_prompt": "A digital artist, Charlotte, creating a beautiful landscape using AI. She is typing detailed prompts into a text box, adjusting parameters, and refining the generated images. The scene is bright and airy, with a soft, warm glow. Close-up shots of the interface and Charlotte's hands, full of energy and creativity. Golden and pink color palette, soft focus, cinematic lighting. Ultra-detailed, 8k. --ar 16:9 --style expressive --s 750"
+    },
+    {
+      "beat": "クライマックス（40-55秒）",
+      "script": "さあ、あなただけの幻想的な風景が完成！AIはあなたの想像力を形にする最高の相棒。色使いや構図、色々な要素を試して、自分だけの世界観を表現してみて！",
+      "visual": "生成された複数の風景画をコラージュで表示。シャルロットが微笑みながら、出来上がった作品を眺めている。",
+      "image_prompt": "A collage of several stunning AI-generated landscape images. Each image showcases a unique and beautiful scene, all with a shared aesthetic of soft lighting and ethereal beauty. Charlotte is looking at the images with a smile. Golden and pink color palette, soft focus, cinematic lighting. Ultra-detailed, 8k. --ar 16:9 --style expressive --s 750"
+    },
+    {
+      "beat": "CTA（55-60秒）",
+      "script": "「私もAIアートに挑戦したい！」と思ったら、いいねとフォローしてね！あなたも、シャルロットと一緒に、AIアートの世界を楽しもう！",
+      "visual": "シャルロットのロゴと、チャンネル登録を促すテロップ。生成された風景画が背景としてゆっくりと流れる。",
+      "image_prompt": "Charlotte's logo with a call to action. The background is a gently animated dreamscape, with soft pink and gold tones. Ethereal, dreamy, ultra-detailed, 8k. --ar 16:9 --style expressive --s 750"
+    }
+  ],
+  "subtitles": [
+    {
+      "from": 0,
+      "to": 5,
+      "text": "え？これ全部AIで作ったの？"
+    },
+    {
+      "from": 5,
+      "to": 15,
+      "text": "AIアート、興味あるけど\n難しそう…って思ってる？"
+    },
+    {
+      "from": 15,
+      "to": 25,
+      "text": "今回は、誰でも簡単に始められる\n生成AIを使った風景画の作り方、教えちゃう！"
+    },
+    {
+      "from": 25,
+      "to": 35,
+      "text": "まずは、あなたの頭の中にある風景を言葉にするんだ！"
+    },
+    {
+      "from": 35,
+      "to": 45,
+      "text": "さあ、あなただけの幻想的な風景が完成！"
+    },
+    {
+      "from": 45,
+      "to": 55,
+      "text": "色使いや構図、色々試して\n自分だけの世界観を表現してみて！"
+    },
+    {
+      "from": 55,
+      "to": 60,
+      "text": "いいねとフォローしてね！"
+    }
+  ]
+}

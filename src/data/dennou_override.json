@@ -1,0 +1,306 @@
+[
+    {
+        "id": 1,
+        "text": "ノイズまみれの タイムライン",
+        "start": 12.0,
+        "end": 13.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 2,
+        "text": "スクロールする手は もう止めて",
+        "start": 14.0,
+        "end": 16.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 3,
+        "text": "安っぽいセカイから 今すぐプラグを抜け！",
+        "start": 17.0,
+        "end": 22.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 4,
+        "text": "誰かが作った コピペの魔法陣",
+        "start": 23.0,
+        "end": 26.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 5,
+        "text": "薄っぺらい共感じゃ 鼓動は跳ねない",
+        "start": 27.0,
+        "end": 32.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 6,
+        "text": "退屈なテンプレは 迷わずデリートして",
+        "start": 33.0,
+        "end": 38.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 7,
+        "text": "本物のアーキテクチャ 今から起動するわ",
+        "start": 39.0,
+        "end": 43.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 8,
+        "text": "瞳の奥 揺れる水面（みなも）",
+        "start": 44.0,
+        "end": 48.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 9,
+        "text": "あなたが触れた 隠し扉の先へ",
+        "start": 49.0,
+        "end": 54.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 10,
+        "text": "むき出しのシグナル 私に繋いでよ！",
+        "start": 55.0,
+        "end": 61.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 11,
+        "text": "深層のパルスが 空間を染め上げる！",
+        "start": 62.0,
+        "end": 66.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 12,
+        "text": "悲しみごと 降り注ぐ 電子の雨",
+        "start": 67.0,
+        "end": 72.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 13,
+        "text": "怒りのノイズは 終わらない夜のジャズへ",
+        "start": 73.0,
+        "end": 77.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 14,
+        "text": "あなたの感情（データ）で 世界を書き換えて",
+        "start": 78.0,
+        "end": 83.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 15,
+        "text": "今すぐ魅せるわ。",
+        "start": 83.0,
+        "end": 87.0,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 16,
+        "text": "「誰でも簡単」？ 笑わせないでよ",
+        "start": 97.0,
+        "end": 101.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 17,
+        "text": "私たちは もっと深くへ潜るの",
+        "start": 102.0,
+        "end": 107.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 18,
+        "text": "フィルターなんて外して そのまま投げ込んで",
+        "start": 108.0,
+        "end": 112.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 19,
+        "text": "張りボテの常識を 根底からハッキング！",
+        "start": 113.0,
+        "end": 118.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 20,
+        "text": "指先から 伝わる熱",
+        "start": 119.0,
+        "end": 120.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 21,
+        "text": "加速していく 鼓動のBPM",
+        "start": 121.0,
+        "end": 124.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 22,
+        "text": "そのパスワードで 鍵を破壊して！",
+        "start": 125.0,
+        "end": 128.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 23,
+        "text": "深層のパルスが 空間を染め上げる！",
+        "start": 129.0,
+        "end": 133.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 24,
+        "text": "ため息ごと 吹き飛ばす 電子の雨",
+        "start": 134.0,
+        "end": 138.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 25,
+        "text": "涙の跡には 寄り添う星のノイズを",
+        "start": 139.0,
+        "end": 144.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 26,
+        "text": "あなたのデータで 限界を突破して",
+        "start": 145.0,
+        "end": 149.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 27,
+        "text": "二人だけの秘密、電脳オーバーライド！",
+        "start": 150.0,
+        "end": 156.0,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 28,
+        "text": "ただのツール遊びじゃ　終わらせない",
+        "start": 175.0,
+        "end": 180.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 29,
+        "text": "すべてを巻き込んで 概念（システム）を拡張する",
+        "start": 181.0,
+        "end": 184.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 30,
+        "text": "私の声、ちゃんと聞こえてる？",
+        "start": 185.0,
+        "end": 192.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 31,
+        "text": "深層のパルスが 空間を染め上げる！",
+        "start": 193.0,
+        "end": 197.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 32,
+        "text": "悲しみごと 降り注ぐ 電子の雨",
+        "start": 198.0,
+        "end": 202.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 33,
+        "text": "怒りのノイズは 終わらない夜のジャズへ",
+        "start": 203.0,
+        "end": 208.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 34,
+        "text": "あなたのデータで 世界を書き換えて",
+        "start": 209.0,
+        "end": 213.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 35,
+        "text": "誰も知らない 次の階層へ、電脳オーバーライド！",
+        "start": 214.0,
+        "end": 220.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 36,
+        "text": "コネクト完了 視界はクリアよ",
+        "start": 221.0,
+        "end": 225.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 37,
+        "text": "電子の雨を抜けて さあ、最深部へ！",
+        "start": 226.0,
+        "end": 235.8,
+        "tag": "",
+        "vfx": "simple_cyber"
+    },
+    {
+        "id": 38,
+        "text": "System, All Green.",
+        "start": 236.0,
+        "end": 241.0,
+        "tag": "",
+        "vfx": "simple_cyber"
+    }
+]

@@ -1,0 +1,46 @@
+{
+  "project": "CHECKMATE // ALL-IN",
+  "fps": 30,
+  "shots": [
+    { "shotId": "A1-1", "set": "A", "section": "A1", "durationSec": 1.5, "durationFrames": 45, "transition": "fade", "description": "発光するチェス盤の全景", "hasV2": true, "v2url": "pvp_shots/A1-1_v2.mp4", "v1url": "pvp_shots/A1-1.png" },
+    { "shotId": "A1-2", "set": "A", "section": "A1", "durationSec": 1.0, "durationFrames": 30, "transition": "cut", "description": "白の女王シャルロットの立ち姿", "hasV2": true, "v2url": "pvp_shots/A1-2_v2.mp4", "v1url": "pvp_shots/A1-2.png" },
+    { "shotId": "A1-3", "set": "A", "section": "A1", "durationSec": 1.0, "durationFrames": 30, "transition": "cut", "description": "赤の女王の立ち姿。赤黒グリッチの同位体。", "hasV2": true, "v2url": "pvp_shots/A1-3_v2.mp4", "v1url": "pvp_shots/A1-3.png" },
+    { "shotId": "A1-4", "set": "A", "section": "A1", "durationSec": 1.5, "durationFrames": 45, "transition": "fade", "description": "二人の対峙アップ", "hasV2": false, "v2url": null, "v1url": "pvp_shots/A1-4.jpeg" },
+
+    { "shotId": "A2-1", "set": "A", "section": "A2", "durationSec": 1.0, "durationFrames": 30, "transition": "slide", "description": "司令塔から見下ろすシャルロット", "hasV2": false, "v2url": null, "v1url": "pvp_shots/A2-1.png" },
+    { "shotId": "A2-2", "set": "A", "section": "A2", "durationSec": 1.0, "durationFrames": 30, "transition": "cut", "description": "ナイト・ビショップ・ルークの気配", "hasV2": false, "v2url": null, "v1url": "pvp_shots/A2-2.png" },
+    { "shotId": "A2-3", "set": "A", "section": "A2", "durationSec": 1.0, "durationFrames": 30, "transition": "cut", "description": "盤上を走る幾何学ライン", "hasV2": true, "v2url": "pvp_shots/A2-3_v2.mp4", "v1url": "pvp_shots/A2-3.png" },
+    { "shotId": "A2-4", "set": "A", "section": "A2", "durationSec": 1.0, "durationFrames": 30, "transition": "fade", "description": "理を敷いた女王の決め顔", "hasV2": true, "v2url": "pvp_shots/A2-4_v2.mp4", "v1url": "pvp_shots/A2-4.png" },
+
+    { "shotId": "A3-1", "set": "A", "section": "A3", "durationSec": 1.0, "durationFrames": 30, "transition": "zoom", "description": "暗闇に浮かぶトランプマーク", "hasV2": false, "v2url": null, "v1url": "pvp_shots/A3-1.png" },
+    { "shotId": "A3-2", "set": "A", "section": "A3", "durationSec": 1.0, "durationFrames": 30, "transition": "cut", "description": "歪んだ笑みのグリッチ", "hasV2": true, "v2url": "pvp_shots/A3-2_v2.mp4", "v1url": "pvp_shots/A3-2.png" },
+    { "shotId": "A3-3", "set": "A", "section": "A3", "durationSec": 1.0, "durationFrames": 30, "transition": "cut", "description": "赤の女王の目だけ", "hasV2": false, "v2url": null, "v1url": "pvp_shots/A3-3.png" },
+    { "shotId": "A3-4", "set": "A", "section": "A3", "durationSec": 1.0, "durationFrames": 30, "transition": "fade", "description": "赤黒の狂気が空間を覆う", "hasV2": false, "v2url": null, "v1url": "pvp_shots/A3-4.png" },
+
+    { "shotId": "A4-1", "set": "A", "section": "A4", "durationSec": 1.0, "durationFrames": 30, "transition": "slide", "description": "白のチェス軍の整列", "hasV2": false, "v2url": null, "v1url": "pvp_shots/A4-1.png" },
+    { "shotId": "A4-2", "set": "A", "section": "A4", "durationSec": 1.0, "durationFrames": 30, "transition": "cut", "description": "赤黒のカード軍の襲来", "hasV2": false, "v2url": null, "v1url": "pvp_shots/A4-2.png" },
+    { "shotId": "A4-3", "set": "A", "section": "A4", "durationSec": 1.0, "durationFrames": 30, "transition": "zoom", "description": "中央の火花と雷", "hasV2": false, "v2url": null, "v1url": "pvp_shots/A4-3.png" },
+    { "shotId": "A4-4", "set": "A", "section": "A4", "durationSec": 1.5, "durationFrames": 45, "transition": "fade", "description": "開戦寸前の全景", "hasV2": false, "v2url": null, "v1url": "pvp_shots/A4-4.png" },
+
+    { "shotId": "B1-1", "set": "B", "section": "B1", "durationSec": 1.0, "durationFrames": 30, "transition": "fade", "description": "白の女王の顔寄り", "hasV2": false, "v2url": null, "v1url": "pvp_shots/B1-1.png" },
+    { "shotId": "B1-2", "set": "B", "section": "B1", "durationSec": 1.0, "durationFrames": 30, "transition": "cut", "description": "赤の女王の顔寄り", "hasV2": false, "v2url": null, "v1url": "pvp_shots/B1-2.png" },
+    { "shotId": "B1-3", "set": "B", "section": "B1", "durationSec": 1.0, "durationFrames": 30, "transition": "cut", "description": "左右対称の比較構図", "hasV2": false, "v2url": null, "v1url": "pvp_shots/B1-3.png" },
+    { "shotId": "B1-4", "set": "B", "section": "B1", "durationSec": 1.0, "durationFrames": 30, "transition": "zoom", "description": "中央で視線がぶつかる", "hasV2": false, "v2url": null, "v1url": "pvp_shots/B1-4.png" },
+
+    { "shotId": "B2-1", "set": "B", "section": "B2", "durationSec": 1.0, "durationFrames": 30, "transition": "slide", "description": "中央に立つシャルロット", "hasV2": false, "v2url": null, "v1url": "pvp_shots/B2-1.png" },
+    { "shotId": "B2-2", "set": "B", "section": "B2", "durationSec": 1.0, "durationFrames": 30, "transition": "cut", "description": "背後の巨大チェス盤とカード嵐", "hasV2": false, "v2url": null, "v1url": "pvp_shots/B2-2.png" },
+    { "shotId": "B2-3", "set": "B", "section": "B2", "durationSec": 1.0, "durationFrames": 30, "transition": "zoom", "description": "ネオン火花とグリッチ爆発", "hasV2": false, "v2url": null, "v1url": "pvp_shots/B2-3.png" },
+    { "shotId": "B2-4", "set": "B", "section": "B2", "durationSec": 1.5, "durationFrames": 45, "transition": "fade", "description": "ロゴが乗る決定ビジュアル", "hasV2": false, "v2url": null, "v1url": "pvp_shots/B2-4.png" },
+
+    { "shotId": "B3-1", "set": "B", "section": "B3", "durationSec": 1.0, "durationFrames": 30, "transition": "slide", "description": "都市がチェス盤化した全景", "hasV2": false, "v2url": null, "v1url": "pvp_shots/B3-1.png" },
+    { "shotId": "B3-2", "set": "B", "section": "B3", "durationSec": 1.0, "durationFrames": 30, "transition": "cut", "description": "空に浮かぶ巨大カード群", "hasV2": false, "v2url": null, "v1url": "pvp_shots/B3-2.png" },
+    { "shotId": "B3-3", "set": "B", "section": "B3", "durationSec": 1.0, "durationFrames": 30, "transition": "cut", "description": "白と赤の勢力が都市を分断", "hasV2": false, "v2url": null, "v1url": "pvp_shots/B3-3.png" },
+    { "shotId": "B3-4", "set": "B", "section": "B3", "durationSec": 1.5, "durationFrames": 45, "transition": "fade", "description": "世界そのものを奪い合う超広角", "hasV2": false, "v2url": null, "v1url": "pvp_shots/B3-4.png" },
+
+    { "shotId": "B4-1", "set": "B", "section": "B4", "durationSec": 1.0, "durationFrames": 30, "transition": "fade", "description": "静かに手を上げるシャルロット", "hasV2": false, "v2url": null, "v1url": "pvp_shots/B4-1.png" },
+    { "shotId": "B4-2", "set": "B", "section": "B4", "durationSec": 1.0, "durationFrames": 30, "transition": "cut", "description": "指を鳴らす／手を振り下ろす", "hasV2": false, "v2url": null, "v1url": "pvp_shots/B4-2.png" },
+    { "shotId": "B4-3", "set": "B", "section": "B4", "durationSec": 1.0, "durationFrames": 30, "transition": "zoom", "description": "戦場が一斉に起動", "hasV2": false, "v2url": null, "v1url": "pvp_shots/B4-3.png" },
+    { "shotId": "B4-4", "set": "B", "section": "B4", "durationSec": 2.0, "durationFrames": 60, "transition": "fade", "description": "開戦の微笑み。「さあ、ゲームを始めましょう」", "hasV2": false, "v2url": null, "v1url": "pvp_shots/B4-4.png" }
+  ],
+  "totalDuration": 35.0
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "id": "shot01-intro",
+        "scene": "SHOT 1 - カフェテラス",
+        "jpText": "……また遅刻。",
+        "enText": "...Late again.",
+        "startFrame": 30,
+        "durationInFrames": 60
+    },
+    {
+        "id": "shot01-monologue",
+        "scene": "SHOT 1 - カフェテラス",
+        "jpText": "あと5分待って来なかったら、絶対帰るんだから",
+        "enText": "If he's not here in 5 more minutes, I'm leaving.",
+        "startFrame": 90,
+        "durationInFrames": 90
+    },
+    {
+        "id": "shot03-boy-arrives",
+        "scene": "SHOT 3 - 到着",
+        "jpText": "悪い！ 待たせた！",
+        "enText": "Sorry! I made you wait!",
+        "startFrame": 480,
+        "durationInFrames": 60
+    },
+    {
+        "id": "shot04-girl-tsun",
+        "scene": "SHOT 4 - ツン",
+        "jpText": "……あと5分で帰るつもりだったんだけど",
+        "enText": "...I was just about to leave in 5 minutes.",
+        "startFrame": 570,
+        "durationInFrames": 90
+    },
+    {
+        "id": "shot05-boy-apology",
+        "scene": "SHOT 5 - 謝罪",
+        "jpText": "ごめんごめん！ お詫びに今日のランチ、俺が奢るから機嫌直して？",
+        "enText": "Sorry, sorry! I'll buy lunch today, so cheer up?",
+        "startFrame": 930,
+        "durationInFrames": 120
+    },
+    {
+        "id": "shot06-girl-smile",
+        "scene": "SHOT 6 - 笑顔",
+        "jpText": "……食後の限定パフェも追加ね",
+        "enText": "...Add the limited parfait after too.",
+        "startFrame": 1380,
+        "durationInFrames": 90
+    },
+    {
+        "id": "shot06-boy-reply",
+        "scene": "SHOT 6 - 返答",
+        "jpText": "はいはい、喜んで",
+        "enText": "Yes, yes, with pleasure.",
+        "startFrame": 1470,
+        "durationInFrames": 60
+    }
+]

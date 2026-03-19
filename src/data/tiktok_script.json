@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-02-21T06:47:27.749949",
+  "title": "【AI動画】一瞬で異世界！プロが教える背景革命",
+  "theme": "AIを活用して、動画の背景を自由自在に操る方法を紹介します。",
+  "preset": "サイバーパンク / キャメロット",
+  "music_file": "shutfullslot.wav",
+  "hashtags": [
+    "#AI生成",
+    "#シャルロット",
+    "#キャメロット",
+    "#AI動画",
+    "#動画編集"
+  ],
+  "beats": [
+    {
+      "beat": "Hook（0-5秒）",
+      "script": "え、これ全部AI！？信じられないクオリティ、見せちゃいます。",
+      "visual": "AI生成された美しい背景のBefore-Afterを高速で切り替える。",
+      "image_prompt": "A cyberpunk cityscape at night, neon lights reflecting on wet pavement, deep blues and electric cyan hues, fog obscuring distant buildings, cinematic, hyperrealistic, 8k"
+    },
+    {
+      "beat": "展開（5-40秒）",
+      "script": "（ナレーション）動画の印象、背景で劇的に変わるんです。でもロケ地を探すのは大変…そこでAIの出番！今回は、AI動画生成を使って、どんな場所でも一瞬で作り出す方法を伝授します。まずは作りたい場所のイメージを文章で入力。ポイントは具体的に、そしてエモく！例えば「雨の夜の渋谷、ネオンが反射する路面」とかね。あとはAIにおまかせ！",
+      "visual": "シャルロットがAI動画生成ツールにプロンプトを入力する様子。生成された背景が徐々に高画質になる様子をタイムラプスで表示。途中で生成に失敗した画像も挟み込む。「AIもたまには失敗するんです…」というテロップ。",
+      "image_prompt": "Charlotte, an AI VTuber with pink hair, working on a computer in a dimly lit room, cyberpunk aesthetic, neon reflections on her face, focused expression, cinematic, 8k"
+    },
+    {
+      "beat": "クライマックス（40-55秒）",
+      "script": "（ナレーション）どうですか？このクオリティ！まるで本当に渋谷にいるみたい。背景が完成したら、あとは動画に合成するだけ。あなたも今日から、場所にとらわれない自由な映像制作を始めよう！",
+      "visual": "AI生成された背景とシャルロットの映像が合成された完成動画。雨の渋谷を歩いているような演出。様々な背景が切り替わるモンタージュ。",
+      "image_prompt": "Charlotte, an AI VTuber, walking through a cyberpunk Shibuya at night, neon lights, rain reflecting on the pavement, cinematic, 8k"
+    },
+    {
+      "beat": "CTA（55-60秒）",
+      "script": "このテクニック、もっと知りたくない？フォロー&保存で、AI動画制作の裏技をゲット！",
+      "visual": "チャンネル登録と保存を促すアニメーション。シャルロットの笑顔のアップ。背景にAI生成された美しい風景が流れる。",
+      "image_prompt": "Charlotte, an AI VTuber, smiling warmly, surrounded by neon lights and digital effects, friendly and inviting, cinematic, 8k"
+    }
+  ],
+  "subtitles": [
+    {
+      "from": 0,
+      "to": 5,
+      "text": "え、全部AI!?"
+    },
+    {
+      "from": 5,
+      "to": 15,
+      "text": "動画の印象は背景で変わる"
+    },
+    {
+      "from": 15,
+      "to": 30,
+      "text": "AI動画生成で場所は自由自在"
+    },
+    {
+      "from": 30,
+      "to": 45,
+      "text": "プロンプトは具体的に！"
+    },
+    {
+      "from": 45,
+      "to": 55,
+      "text": "あなたも今日からAI動画クリエイター"
+    },
+    {
+      "from": 55,
+      "to": 60,
+      "text": "フォロー&保存で裏技ゲット!"
+    }
+  ]
+}

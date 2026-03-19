@@ -1,0 +1,170 @@
+[
+    {
+        "id": "shot01-vo1",
+        "jpText": "みんな、歴史を『物語』だと思ってる。",
+        "enText": "Everyone thinks history is just a story.",
+        "startFrame": 20,
+        "durationInFrames": 80
+    },
+    {
+        "id": "shot01-vo2",
+        "jpText": "でも、1869年のこの夜に、彼らがいるはずがないの。",
+        "enText": "But on this night in 1869, they should not exist.",
+        "startFrame": 105,
+        "durationInFrames": 90
+    },
+    {
+        "id": "shot01-vo3",
+        "jpText": "死者は語らず、記録は沈黙する。",
+        "enText": "The dead do not speak. The records remain silent.",
+        "startFrame": 200,
+        "durationInFrames": 75
+    },
+    {
+        "id": "shot01-vo4",
+        "jpText": "……なら、今私の目の前で刀を抜いている『彼ら』は、一体誰？",
+        "enText": "Then who are they... drawing their blades before my eyes?",
+        "startFrame": 280,
+        "durationInFrames": 110
+    },
+    {
+        "id": "shot02-ch1",
+        "jpText": "見つけた。",
+        "enText": "Found it.",
+        "startFrame": 440,
+        "durationInFrames": 40
+    },
+    {
+        "id": "shot02-ch2",
+        "jpText": "公式ログが『静寂の夜』と呼んだ、元治元年の祇園。",
+        "enText": "Gion, 1865. The night the official log calls \"The Silent Night.\"",
+        "startFrame": 485,
+        "durationInFrames": 100
+    },
+    {
+        "id": "shot02-ch3",
+        "jpText": "……ワトソン、この壊れた記録を復元して。私の目で見せて。",
+        "enText": "Watson — reconstruct this corrupted record. Show it to me, through my own eyes.",
+        "startFrame": 590,
+        "durationInFrames": 110
+    },
+    {
+        "id": "shot06-tk1",
+        "jpText": "病死の末に、退屈な墓場に押し込まれたと思ってたが……。",
+        "enText": "I thought I'd been shoved into some dull grave after dying of illness...",
+        "startFrame": 5040,
+        "durationInFrames": 110
+    },
+    {
+        "id": "shot06-tk2",
+        "jpText": "フン、歴史の神様ってのは、よっぽど俺を暴れさせたいらしい。",
+        "enText": "Hmph. Looks like the god of history wants me to keep on raising hell.",
+        "startFrame": 5155,
+        "durationInFrames": 120
+    },
+    {
+        "id": "shot07-ok1",
+        "jpText": "……おかしいですね。",
+        "enText": "...How strange.",
+        "startFrame": 6360,
+        "durationInFrames": 50
+    },
+    {
+        "id": "shot07-ok2",
+        "jpText": "僕は確か、千駄ヶ谷の植木屋で眠りについたはずなのに。",
+        "enText": "I was certain I had fallen asleep at the gardener's house in Sendagaya.",
+        "startFrame": 6415,
+        "durationInFrames": 110
+    },
+    {
+        "id": "shot07-ok3",
+        "jpText": "……この冷たい雨、そしてこの剣の重み。まるで夢の続きのようだ。",
+        "enText": "This cold rain. The weight of my sword. It feels like a continuation of a dream.",
+        "startFrame": 6530,
+        "durationInFrames": 120
+    },
+    {
+        "id": "shot08-ch1",
+        "jpText": "二つの異物が、歴史の特異点で重なり合っている。",
+        "enText": "Two anomalies, converging at a singularity in history.",
+        "startFrame": 8160,
+        "durationInFrames": 100
+    },
+    {
+        "id": "shot08-ch2",
+        "jpText": "……美しい。",
+        "enText": "...Beautiful.",
+        "startFrame": 8265,
+        "durationInFrames": 45
+    },
+    {
+        "id": "shot08-ch3",
+        "jpText": "私は、あなたたちを『正解』にはさせない。",
+        "enText": "I will not let you become the \"right answer.\"",
+        "startFrame": 8315,
+        "durationInFrames": 90
+    },
+    {
+        "id": "shot10-ch1",
+        "jpText": "……受け取ったわ。",
+        "enText": "...I've received it.",
+        "startFrame": 10870,
+        "durationInFrames": 50
+    },
+    {
+        "id": "shot10-ch2",
+        "jpText": "あなたの『面白さ』も、あなたの『鋭さ』も。",
+        "enText": "Your reckless fire. Your merciless edge.",
+        "startFrame": 10925,
+        "durationInFrames": 90
+    },
+    {
+        "id": "shot10-ch3",
+        "jpText": "システムをオーバーライドする！",
+        "enText": "System — Override!",
+        "startFrame": 11020,
+        "durationInFrames": 60
+    },
+    {
+        "id": "shot10-ch4",
+        "jpText": "今、この瞬間、歴史はこの私に服従する！",
+        "enText": "In this moment, history bows to me!",
+        "startFrame": 11085,
+        "durationInFrames": 90
+    },
+    {
+        "id": "shot12-ch1",
+        "jpText": "消えさせない。この無意味で、残酷で、美しい夜を！",
+        "enText": "I will not let it vanish. This meaningless, cruel, beautiful night!",
+        "startFrame": 14690,
+        "durationInFrames": 110
+    },
+    {
+        "id": "shot13-ch1",
+        "jpText": "……これで、誰にもこの夜を奪わせない。",
+        "enText": "...Now, no one can take this night away.",
+        "startFrame": 16230,
+        "durationInFrames": 90
+    },
+    {
+        "id": "shot13-ch2",
+        "jpText": "楔は打たれたわ。",
+        "enText": "The Wedge has been driven.",
+        "startFrame": 16325,
+        "durationInFrames": 65
+    },
+    {
+        "id": "shot14-ch1",
+        "jpText": "記録されなかったのではない。",
+        "enText": "It was not left unrecorded.",
+        "startFrame": 17100,
+        "durationInFrames": 75
+    },
+    {
+        "id": "shot14-ch2",
+        "jpText": "私が、誰にも見つからない場所に……隠したのよ。",
+        "enText": "I hid it — somewhere no one will ever find.",
+        "startFrame": 17180,
+        "durationInFrames": 110
+    }
+]

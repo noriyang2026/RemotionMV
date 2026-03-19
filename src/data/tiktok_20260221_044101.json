@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-02-21T04:41:01.353656",
+  "title": "【5秒で激変】AI背景でデスクを異世界に！",
+  "theme": "AIを使ってデスク環境を簡単にカスタマイズする方法を紹介します。",
+  "preset": "サイバーパンク / キャメロット",
+  "music_file": "shutfullslot.wav",
+  "hashtags": [
+    "#AI生成",
+    "#シャルロット",
+    "#キャメロット",
+    "#AI背景",
+    "#デスク環境"
+  ],
+  "beats": [
+    {
+      "beat": "Hook（0-5秒）",
+      "script": "え、ここどこ？実は…",
+      "visual": "ごちゃごちゃした現実のデスクが一瞬でサイバーパンク風の異世界に変わるビフォーアフター映像。",
+      "image_prompt": "Close-up of a messy desk cluttered with papers and cables, suddenly transforming into a sleek, cyberpunk-inspired workspace with neon lights and holographic displays, highly detailed, cinematic lighting, cyberpunk / Camelot preset"
+    },
+    {
+      "beat": "展開（5-40秒）",
+      "script": "（ナレーション）作業効率爆上げ！AIでデスクの背景、作ってみた。\n\nポイントは３つ！①AI画像生成ツール起動！②デスクのテーマを入力！今回はサイバーパンクキャメロット！③生成された画像を背景に設定！",
+      "visual": "AI画像生成ツール(Midjourney or DALL-E)の操作画面をキャプチャ。プロンプトを入力する様子、画像が生成されていく様子を早送りで見せる。最後に、生成された画像をPCの背景に設定する。",
+      "image_prompt": "Screenshot of Midjourney or DALL-E interface, showing the process of generating a cyberpunk/Camelot themed desk background. The prompt should be visible, and the image generation should be in progress. The final image should be a stunning, highly detailed futuristic desk setup with neon lights, holographic displays, and advanced technology., cinematic lighting, cyberpunk / Camelot preset"
+    },
+    {
+      "beat": "クライマックス（40-55秒）",
+      "script": "（ナレーション）どう？集中力、全然違うでしょ？\n\n現実逃避…じゃなくて、クリエイティビティ爆発！\n\nあなたもAIで理想の空間、作ってみてね！",
+      "visual": "AI生成された背景のデスクでシャルロットが作業している様子。集中して作業している表情。背景がぼかされ、シャルロットにピントが合っている。",
+      "image_prompt": "A beautiful AI VTuber, Charlotte, sitting at a desk with a cyberpunk/Camelot themed AI-generated background. She is focused and engaged in her work. The background is slightly blurred to emphasize Charlotte, cinematic lighting, cyberpunk / Camelot preset"
+    },
+    {
+      "beat": "CTA（55-60秒）",
+      "script": "いいねと思ったら、フォロー＆保存してね！",
+      "visual": "画面右下にシャルロットのロゴとチャンネル名を表示。フォローボタン、保存ボタンをアニメーションで強調。",
+      "image_prompt": "End screen with Charlotte's logo and channel name, animated follow and save buttons, futuristic and vibrant design, cyberpunk / Camelot preset"
+    }
+  ],
+  "subtitles": [
+    {
+      "from": 0,
+      "to": 5,
+      "text": "え、ここどこ？実は…"
+    },
+    {
+      "from": 5,
+      "to": 15,
+      "text": "作業効率爆上げ！AIでデスクの背景、作ってみた。"
+    },
+    {
+      "from": 15,
+      "to": 25,
+      "text": "①AI画像生成ツール起動！"
+    },
+    {
+      "from": 25,
+      "to": 35,
+      "text": "②デスクのテーマを入力！今回はサイバーパンクキャメロット！"
+    },
+    {
+      "from": 35,
+      "to": 45,
+      "text": "③生成された画像を背景に設定！"
+    },
+    {
+      "from": 45,
+      "to": 55,
+      "text": "あなたもAIで理想の空間、作ってみてね！"
+    },
+    {
+      "from": 55,
+      "to": 60,
+      "text": "いいねと思ったら、フォロー＆保存してね！"
+    }
+  ]
+}
