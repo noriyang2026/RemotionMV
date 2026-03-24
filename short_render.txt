@@ -1,0 +1,184 @@
+﻿Bundling 6%
+Bundling 19%
+Bundling 62%
+Bundling 69%
+Bundling 74%
+Bundling 80%
+Bundling 85%
+Bundling 90%
+Bundling 95%
+Bundling 100%
+Copying public dir 80.3 MB
+Copying public dir 135.1 MB
+Copying public dir 135.1 MB
+Copying public dir 145.7 MB
+Copying public dir 182.4 MB
+Copying public dir 237.2 MB
+Copying public dir 260.1 MB
+Copying public dir 573 MB
+Copying public dir 619.7 MB
+Copying public dir 684 MB
+Getting composition
+[90mComposition          TikTokShort[39m
+[90mCodec                h264[39m
+[90mOutput               out/TikTokShort.mp4[39m
+[90mConcurrency          8x[39m
+Rendered 0/151
+Rendered 1/151, time remaining: 37m 23s
+Rendered 2/151, time remaining: 18m 58s
+Rendered 3/151, time remaining: 12m 34s
+Rendered 4/151, time remaining: 9m 22s
+Rendered 5/151, time remaining: 7m 27s
+Rendered 6/151, time remaining: 6m 16s
+Rendered 7/151, time remaining: 5m 20s
+Rendered 8/151, time remaining: 4m 38s
+Rendered 9/151, time remaining: 4m 6s
+Rendered 10/151, time remaining: 3m 50s
+Rendered 11/151, time remaining: 3m 30s
+Rendered 12/151, time remaining: 3m 12s
+Rendered 13/151, time remaining: 2m 56s
+Rendered 14/151, time remaining: 2m 45s
+Rendered 15/151, time remaining: 2m 33s
+Rendered 16/151, time remaining: 2m 23s
+Rendered 17/151, time remaining: 2m 14s
+Rendered 18/151, time remaining: 2m 6s
+Rendered 19/151, time remaining: 1m 59s
+Rendered 20/151, time remaining: 1m 53s
+Rendered 21/151, time remaining: 1m 47s
+Rendered 22/151, time remaining: 1m 44s
+Rendered 23/151, time remaining: 1m 39s
+Rendered 24/151, time remaining: 1m 34s
+Rendered 25/151, time remaining: 1m 30s
+Rendered 26/151, time remaining: 1m 26s
+Rendered 27/151, time remaining: 1m 23s
+Rendered 28/151, time remaining: 1m 21s
+Rendered 29/151, time remaining: 1m 18s
+Rendered 30/151, time remaining: 1m 15s
+Rendered 31/151, time remaining: 1m 13s
+Rendered 32/151, time remaining: 1m 10s
+Rendered 33/151, time remaining: 1m 8s
+Rendered 34/151, time remaining: 1m 5s
+Rendered 35/151, time remaining: 1m 3s
+Rendered 36/151, time remaining: 1m 2s
+Rendered 37/151, time remaining: 1m 0s
+Rendered 38/151, time remaining: 58s
+Rendered 39/151, time remaining: 56s
+Rendered 40/151, time remaining: 56s
+Rendered 41/151, time remaining: 54s
+Rendered 42/151, time remaining: 53s
+Rendered 43/151, time remaining: 51s
+Rendered 44/151, time remaining: 49s
+Rendered 45/151, time remaining: 48s
+Rendered 46/151, time remaining: 47s
+Rendered 47/151, time remaining: 46s
+Rendered 48/151, time remaining: 44s
+Rendered 49/151, time remaining: 43s
+Rendered 50/151, time remaining: 42s
+Rendered 51/151, time remaining: 41s
+Rendered 52/151, time remaining: 41s
+Rendered 53/151, time remaining: 40s
+Rendered 54/151, time remaining: 39s
+Rendered 55/151, time remaining: 37s
+Rendered 56/151, time remaining: 36s
+Rendered 57/151, time remaining: 36s
+Rendered 58/151, time remaining: 35s
+Rendered 59/151, time remaining: 34s
+Rendered 60/151, time remaining: 33s
+Rendered 61/151, time remaining: 33s
+Rendered 62/151, time remaining: 32s
+Rendered 63/151, time remaining: 31s
+Rendered 64/151, time remaining: 31s
+Rendered 65/151, time remaining: 30s
+Rendered 66/151, time remaining: 29s
+Rendered 67/151, time remaining: 28s
+Rendered 68/151, time remaining: 28s
+Rendered 69/151, time remaining: 27s
+Rendered 70/151, time remaining: 27s
+Rendered 71/151, time remaining: 26s
+Rendered 72/151, time remaining: 25s
+Rendered 73/151, time remaining: 25s
+Rendered 74/151, time remaining: 24s
+Rendered 75/151, time remaining: 24s
+Rendered 76/151, time remaining: 23s
+Rendered 77/151, time remaining: 23s
+Rendered 78/151, time remaining: 22s
+Rendered 79/151, time remaining: 22s
+Rendered 80/151, time remaining: 21s
+Rendered 81/151, time remaining: 21s
+Rendered 82/151, time remaining: 20s
+Rendered 83/151, time remaining: 20s
+Rendered 84/151, time remaining: 19s
+Rendered 85/151, time remaining: 19s
+Rendered 86/151, time remaining: 18s
+Rendered 87/151, time remaining: 18s
+Rendered 88/151, time remaining: 17s
+Rendered 89/151, time remaining: 17s
+Rendered 90/151, time remaining: 17s
+Rendered 91/151, time remaining: 16s
+Rendered 92/151, time remaining: 16s
+Rendered 93/151, time remaining: 15s
+Rendered 94/151, time remaining: 15s
+Rendered 95/151, time remaining: 15s
+Rendered 96/151, time remaining: 14s
+Rendered 97/151, time remaining: 14s
+Rendered 98/151, time remaining: 14s
+Rendered 99/151, time remaining: 13s
+Rendered 100/151, time remaining: 13s
+Rendered 101/151, time remaining: 12s
+Rendered 102/151, time remaining: 12s
+Rendered 103/151, time remaining: 12s
+Rendered 104/151, time remaining: 11s
+Rendered 105/151, time remaining: 11s
+Rendered 106/151, time remaining: 11s
+Rendered 107/151, time remaining: 11s
+Rendered 108/151, time remaining: 10s
+Rendered 109/151, time remaining: 10s
+Rendered 110/151, time remaining: 10s
+Rendered 111/151, time remaining: 9s
+Rendered 112/151, time remaining: 9s
+Rendered 113/151, time remaining: 9s
+Rendered 114/151, time remaining: 8s
+Rendered 115/151, time remaining: 8s
+Rendered 116/151, time remaining: 8s
+Rendered 117/151, time remaining: 8s
+Rendered 118/151, time remaining: 7s
+Rendered 119/151, time remaining: 7s
+Rendered 120/151, time remaining: 7s
+Rendered 121/151, time remaining: 6s
+Rendered 122/151, time remaining: 6s
+Rendered 123/151, time remaining: 6s
+Rendered 124/151, time remaining: 6s
+Rendered 125/151, time remaining: 5s
+Rendered 126/151, time remaining: 5s
+Rendered 127/151, time remaining: 5s
+Rendered 128/151, time remaining: 5s
+Rendered 129/151, time remaining: 4s
+Rendered 130/151, time remaining: 4s
+Rendered 131/151, time remaining: 4s
+Rendered 132/151, time remaining: 4s
+Rendered 133/151, time remaining: 3s
+Rendered 134/151, time remaining: 3s
+Rendered 135/151, time remaining: 3s
+Rendered 136/151, time remaining: 3s
+Rendered 137/151, time remaining: 3s
+Rendered 138/151, time remaining: 2s
+Rendered 139/151, time remaining: 2s
+Rendered 140/151, time remaining: 2s
+Rendered 141/151, time remaining: 2s
+Rendered 142/151, time remaining: 1s
+Rendered 143/151, time remaining: 1s
+Rendered 144/151, time remaining: 1s
+Rendered 145/151, time remaining: 1s
+Rendered 146/151, time remaining: 1s
+Rendered 147/151, time remaining: 0s
+Rendered 148/151, time remaining: 0s
+Rendered 149/151, time remaining: 0s
+Rendered 150/151, time remaining: 0s
+Rendered 151/151
+Encoded 23/151
+Encoded 48/151
+Encoded 75/151
+Encoded 123/151
+Encoded 150/151
+Encoded 151/151
+[34m+                    out/TikTokShort.mp4[39m [90m23.6 MB[39m

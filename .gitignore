@@ -9,3 +9,16 @@ out
 # Large media files (videos & music)
 public/videos/
 public/music/
+*.wav
+*.mp3
+*.mp4
+*.m4a
+*.png
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Models
+*.pth
+*.index

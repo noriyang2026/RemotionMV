@@ -1,0 +1,58 @@
+[
+  {
+    "id": "line_1",
+    "jpText": "今日も配信楽しかったなー。",
+    "enText": "The broadcast was fun today too.",
+    "startFrame": 3,
+    "durationInFrames": 62,
+    "analysis": "happy"
+  },
+  {
+    "id": "line_2",
+    "jpText": "みんな、いつも見てくれてありがとうね。",
+    "enText": "Everyone, thank you for watching me always.",
+    "startFrame": 90,
+    "durationInFrames": 66,
+    "analysis": "grateful"
+  },
+  {
+    "id": "line_3",
+    "jpText": "まったり配信日和って感じですね。",
+    "enText": "It feels like a perfect day for a laid-back broadcast.",
+    "startFrame": 157,
+    "durationInFrames": 85,
+    "analysis": "content"
+  },
+  {
+    "id": "line_4",
+    "jpText": "皆さんと色々お話したいな。",
+    "enText": "I want to talk to everyone about various things.",
+    "startFrame": 270,
+    "durationInFrames": 60,
+    "analysis": "hopeful"
+  },
+  {
+    "id": "line_5",
+    "jpText": "おっつシャルロットでした。",
+    "enText": "That was Charlotte. See ya!",
+    "startFrame": 333,
+    "durationInFrames": 58,
+    "analysis": "cheerful"
+  },
+  {
+    "id": "line_6",
+    "jpText": "今日もみんなとたくさんお話できて、とっても楽しかったよ。",
+    "enText": "I had so much fun talking with everyone a lot today.",
+    "startFrame": 398,
+    "durationInFrames": 139,
+    "analysis": "happy"
+  },
+  {
+    "id": "line_7",
+    "jpText": "また明日ね。",
+    "enText": "See you tomorrow.",
+    "startFrame": 537,
+    "durationInFrames": 33,
+    "analysis": "friendly"
+  }
+]

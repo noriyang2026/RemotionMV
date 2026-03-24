@@ -1,5 +1,5 @@
 import "./index.css";
-import { Composition } from "remotion";
+import { Composition, OffthreadVideo, staticFile } from "remotion";
 import { HelloWorld, myCompSchema } from "./HelloWorld";
 import { Logo, myCompSchema2 } from "./HelloWorld/Logo";
 import { Briefing } from "./Briefing";
@@ -47,30 +47,66 @@ import pvpConfig from "./data/pvp_config.json";
 import { CyberWitch } from "./CyberWitch";
 import { AIHaveMV } from "./AIHaveMV";
 import { AIHaveShorts } from "./AIHaveShorts";
+import { EnergyTelop } from "./EnergyTelop";
+import sequence22Data from "./data/sequence_22_1.json";
+import { SnsPromo } from "./SnsPromo";
+import { Podcast2_1 } from "./Podcast2_1";
 
 // Each <Composition> is an entry in the sidebar!
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
-      {/* 🎵 AI HAVE — ファーストテイク MV (1分版) */}
+      {/* ⚡ エネルギー — CVM Telop Overlay */}
       <Composition
-        id="AIHaveMV"
-        component={AIHaveMV}
-        durationInFrames={1800} // 60s × 30fps
+        id="EnergyMV"
+        component={EnergyTelop}
+        durationInFrames={900} // 30s (Adjust if needed)
         fps={30}
         width={1920}
         height={1080}
       />
 
+      {/* 🎵 AI HAVE — ファーストテイク MV (1分版) */}
+      <Composition
+        id="AIHaveMV-Official"
+        component={AIHaveMV}
+        durationInFrames={1800} // 60s × 30fps
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{ branding: "official" }}
+      />
+
+      <Composition
+        id="AIHaveMV-Contest"
+        component={AIHaveMV}
+        durationInFrames={1800} // 60s × 30fps
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{ branding: "contest" }}
+      />
+
       {/* 📱 AI HAVE — YouTube Shorts 縦型版 (1080×1920) */}
       <Composition
-        id="AIHaveShorts"
+        id="AIHaveShorts-Official"
         component={AIHaveShorts}
         durationInFrames={1800} // 60s × 30fps
         fps={30}
         width={1080}
         height={1920}
+        defaultProps={{ branding: "official" }}
+      />
+
+      <Composition
+        id="AIHaveShorts-Contest"
+        component={AIHaveShorts}
+        durationInFrames={1800} // 60s × 30fps
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ branding: "contest" }}
       />
 
       <Composition
@@ -480,11 +516,70 @@ export const RemotionRoot: React.FC = () => {
         width={1280}
         height={720}
       />
-      {/* 💰 お布施 — Charlotte LIVE テロップ */}
       <Composition
         id="CharlotteOfuse"
         component={CharlotteOfuse}
         durationInFrames={1562}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* 🎬 シーケンス 22-1 — 解析字幕付き */}
+      <Composition
+        id="Sequence-22-1"
+        component={() => (
+          <AbsoluteFill style={{ backgroundColor: 'black' }}>
+            <OffthreadVideo
+              src={staticFile("videos/シーケンス 22_1.mp4")}
+              style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+            />
+
+            {/* Status Labels */}
+            <div style={{ 
+              position: 'absolute', top: 60, left: 80, color: '#00ffcc', 
+              fontFamily: '"Noto Sans JP", sans-serif',
+              textShadow: '0 0 10px rgba(0,255,204,0.5), 2px 2px 2px rgba(0,0,0,0.8)',
+              borderLeft: '4px solid #00ffcc', paddingLeft: '15px'
+            }}>
+              <div style={{ fontSize: 34, fontWeight: 900 }}>テスト配信中</div>
+              <div style={{ fontSize: 18, fontWeight: 500, opacity: 0.9, marginTop: '5px', color: 'white' }}>
+                原作 noriyang 『電脳椅子探偵シャルロット』
+              </div>
+            </div>
+
+            <div style={{ 
+              position: 'absolute', top: 60, right: 80, color: 'white', textAlign: 'right',
+              fontFamily: '"Noto Sans JP", sans-serif', textShadow: '2px 2px 4px rgba(0,0,0,0.8)'
+            }}>
+              <div style={{ fontSize: 42, fontWeight: 900, letterSpacing: '0.1em' }}>シャルロット</div>
+              <div style={{ fontSize: 22, fontWeight: 500, opacity: 0.9, marginTop: '4px', color: '#e0e0e0' }}>
+                ３月末デビュー予定
+              </div>
+            </div>
+
+            <SubtitleSequence data={sequence22Data} />
+          </AbsoluteFill>
+        )}
+        durationInFrames={990} // 33s × 30fps
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* 📢 SNS Promo — Charlotte Voice & Subtitles */}
+      <Composition
+        id="SnsPromo"
+        component={SnsPromo}
+        durationInFrames={1368} // 45.6s × 30fps
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Podcast2-1"
+        component={Podcast2_1}
+        durationInFrames={4849} // 161.64s × 30fps
         fps={30}
         width={1920}
         height={1080}

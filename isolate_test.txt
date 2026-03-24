@@ -1,0 +1,91 @@
+﻿Bundling 6%
+Bundling 13%
+Bundling 31%
+Bundling 57%
+Bundling 65%
+Bundling 71%
+Bundling 76%
+Bundling 81%
+Bundling 87%
+Bundling 92%
+Bundling 98%
+Bundling 100%
+Copying public dir 80.3 MB
+Copying public dir 135.1 MB
+Copying public dir 135.1 MB
+Copying public dir 145.7 MB
+Copying public dir 182.4 MB
+Copying public dir 237.2 MB
+Copying public dir 260.1 MB
+Copying public dir 306.8 MB
+Copying public dir 371.1 MB
+Getting composition
+[90mComposition          TikTokShort[39m
+[90mCodec                h264[39m
+[90mOutput               out/TikTokShort.mp4[39m
+[90mConcurrency          8x[39m
+Rendered 0/61
+Rendered 1/61, time remaining: 9m 43s
+Rendered 2/61, time remaining: 4m 47s
+Rendered 3/61, time remaining: 3m 9s
+Rendered 4/61, time remaining: 2m 20s
+Rendered 5/61, time remaining: 1m 51s
+Rendered 6/61, time remaining: 1m 31s
+Rendered 7/61, time remaining: 1m 17s
+Rendered 8/61, time remaining: 1m 7s
+Rendered 9/61, time remaining: 59s
+Rendered 10/61, time remaining: 53s
+Rendered 11/61, time remaining: 47s
+Rendered 12/61, time remaining: 42s
+Rendered 13/61, time remaining: 39s
+Rendered 14/61, time remaining: 35s
+Rendered 15/61, time remaining: 32s
+Rendered 16/61, time remaining: 30s
+Rendered 17/61, time remaining: 28s
+Rendered 18/61, time remaining: 26s
+Rendered 19/61, time remaining: 24s
+Rendered 20/61, time remaining: 22s
+Rendered 21/61, time remaining: 21s
+Rendered 22/61, time remaining: 19s
+Rendered 23/61, time remaining: 18s
+Rendered 24/61, time remaining: 17s
+Rendered 25/61, time remaining: 16s
+Rendered 26/61, time remaining: 15s
+Rendered 27/61, time remaining: 14s
+Rendered 28/61, time remaining: 13s
+Rendered 29/61, time remaining: 12s
+Rendered 30/61, time remaining: 12s
+Rendered 31/61, time remaining: 11s
+Rendered 32/61, time remaining: 10s
+Rendered 33/61, time remaining: 10s
+Rendered 34/61, time remaining: 9s
+Rendered 35/61, time remaining: 8s
+Rendered 36/61, time remaining: 8s
+Rendered 37/61, time remaining: 7s
+Rendered 38/61, time remaining: 7s
+Rendered 39/61, time remaining: 6s
+Rendered 40/61, time remaining: 6s
+Rendered 41/61, time remaining: 6s
+Rendered 42/61, time remaining: 5s
+Rendered 43/61, time remaining: 5s
+Rendered 44/61, time remaining: 4s
+Rendered 45/61, time remaining: 4s
+Rendered 46/61, time remaining: 4s
+Rendered 47/61, time remaining: 3s
+Rendered 48/61, time remaining: 3s
+Rendered 49/61, time remaining: 3s
+Rendered 50/61, time remaining: 2s
+Rendered 51/61, time remaining: 2s
+Rendered 52/61, time remaining: 2s
+Rendered 53/61, time remaining: 2s
+Rendered 54/61, time remaining: 1s
+Rendered 55/61, time remaining: 1s
+Rendered 56/61, time remaining: 1s
+Rendered 57/61, time remaining: 0s
+Rendered 58/61, time remaining: 0s
+Rendered 59/61, time remaining: 0s
+Rendered 60/61, time remaining: 0s
+Rendered 61/61
+Encoded 8/61
+Encoded 61/61
+[34m笳・                   out/TikTokShort.mp4[39m [90m636.5 kB[39m

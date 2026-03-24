@@ -1,0 +1,40 @@
+﻿Bundling code        [34m笏・[39m[2m笊ｺ笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[22m 6%
+Bundling code        [34m笏≫煤笏・[39m[2m笊ｺ笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[22m 19%
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫丙[39m[2m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[22m 44%
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏・[39m[2m笊ｺ笏≫煤笏≫煤笏≫煤[22m 63%
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[39m[2m笊ｺ笏≫煤笏≫煤笏・[22m 69%
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏・[39m[2m笊ｺ笏≫煤笏≫煤[22m 74%
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[39m[2m笊ｺ笏≫煤笏・[22m 80%
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏・[39m[2m笊ｺ笏≫煤[22m 85%
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[39m[2m笊ｺ笏・[22m 90%
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏・[39m[2m笊ｺ[22m 95%
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[39m 100%
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[39m 100%
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[39m 100%
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[39m 100%
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[39m 100%
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[39m 100%
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[39m 100%
+Copying public dir   237.2 MB          
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[39m 100%
+Copying public dir   260.1 MB          
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[39m 100%
+Copying public dir   573 MB            
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[39m 100%
+Copying public dir   619.7 MB          
+Bundling code        [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[39m 100%
+Copying public dir   684 MB            
+Bundled code         [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[39m [90m4953ms[39m
+Copying public dir   [34m笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤笏≫煤[39m [90m2440ms[39m
+
+The following compositions are available:
+
+Briefing       30      1920x1080      300 (10.00 sec)
+MainMV         30      1920x1080      8566 (285.53 sec)
+Kagee-Cut01    30      1920x1080      150 (5.00 sec)
+Kagee-Cut02    30      1920x1080      150 (5.00 sec)
+HelloWorld     30      1920x1080      150 (5.00 sec)
+OnlyLogo       30      1920x1080      150 (5.00 sec)
+IG-Story       30      1080x1920      3450 (115.00 sec)
+DHM11          30      1920x1080      2430 (81.00 sec)
+TikTokShort    30      1080x1920      1770 (59.00 sec)

@@ -15,17 +15,91 @@ import {
   interpolate,
   Easing,
   staticFile,
+  spring,
 } from "remotion";
 
 const FONT_MONO = '"JetBrains Mono", "Courier New", monospace';
 const FONT_SANS = '"Noto Sans JP", "Hiragino Kaku Gothic ProN", sans-serif';
 
 // ══════════════════════════════════════════════
-// 音声波形風アニメーション（下部）
+// Branding Components (Ported from Energy Project)
 // ══════════════════════════════════════════════
+
+const TypingText: React.FC<{
+  text: string;
+  color?: string;
+  fontSize?: number;
+  delay?: number;
+  style?: React.CSSProperties;
+}> = ({ text, color = "#00f2ff", fontSize = 32, delay = 0, style }) => {
+  const frame = useCurrentFrame();
+  const adjustedFrame = Math.max(0, frame - delay);
+  const charsToShow = Math.floor(adjustedFrame / 1.5);
+  const slicedText = text.slice(0, charsToShow);
+  const isDone = charsToShow >= text.length;
+  const cursorOpacity = !isDone || Math.floor(frame / 15) % 2 === 0 ? 1 : 0;
+
+  return (
+    <div style={{ color, fontFamily: FONT_MONO, fontSize, lineHeight: 1.2, ...style }}>
+      <span>{slicedText}</span>
+      <span
+        style={{
+          opacity: cursorOpacity,
+          backgroundColor: color,
+          marginLeft: 4,
+          display: "inline-block",
+          width: fontSize * 0.6,
+          height: 4,
+          verticalAlign: "middle",
+        }}
+      />
+    </div>
+  );
+};
+
+const EmotionalCopy: React.FC<{ text: string; delay?: number }> = ({ text, delay = 0 }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const adjustedFrame = Math.max(0, frame - delay);
+
+  const spr = spring({
+    frame: adjustedFrame,
+    fps,
+    config: { stiffness: 100 },
+  });
+
+  const charsToShow = Math.floor(adjustedFrame / 1.0);
+  const slicedText = text.slice(0, charsToShow);
+  const opacity = interpolate(spr, [0, 1], [0, 1]);
+  const x = interpolate(spr, [0, 1], [30, 0]);
+
+  return (
+    <div
+      style={{
+        opacity,
+        transform: `translateX(${x}px)`,
+        color: "white",
+        fontSize: 44,
+        fontWeight: "bold",
+        textAlign: "right",
+        textShadow: "0 0 20px rgba(255, 255, 255, 0.4)",
+        borderRight: "12px solid #00e5ff",
+        paddingRight: 25,
+        lineHeight: 1.4,
+        fontFamily: FONT_SANS,
+      }}
+    >
+      {slicedText}
+    </div>
+  );
+};
+
+// ══════════════════════════════════════════════
+// UI Elements
+// ══════════════════════════════════════════════
+
 const WaveformBar: React.FC<{ index: number; totalBars: number }> = ({ index, totalBars }) => {
   const frame = useCurrentFrame();
-  // バーごとに位相をずらしてランダム感を出す
   const phase = (index / totalBars) * Math.PI * 2;
   const speed1 = 0.12 + (index % 7) * 0.018;
   const speed2 = 0.08 + (index % 5) * 0.022;
@@ -82,9 +156,9 @@ const Waveform: React.FC = () => {
 };
 
 // ══════════════════════════════════════════════
-// 右上：シャルロット情報テキスト
+// 📺 Promotion Section (Top Center)
 // ══════════════════════════════════════════════
-const TopRightInfo: React.FC = () => {
+const CenterPromo: React.FC = () => {
   const frame = useCurrentFrame();
   const opacity = interpolate(frame, [0, 40], [0, 1], {
     easing: Easing.ease,
@@ -96,39 +170,44 @@ const TopRightInfo: React.FC = () => {
     <div
       style={{
         position: "absolute",
-        top: 36,
-        right: 52,
-        textAlign: "right",
-        opacity: opacity * 0.85,
+        top: 60,
+        width: "100%",
+        textAlign: "center",
+        opacity: opacity * 0.9,
         pointerEvents: "none",
-        zIndex: 30,
+        zIndex: 100,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        gap: 12,
       }}
     >
       <div
         style={{
           fontFamily: FONT_SANS,
-          fontSize: 42,
+          fontSize: 48,
           fontWeight: 700,
           color: "#ffffff",
           letterSpacing: "0.15em",
-          textShadow: "0 2px 12px rgba(0,0,0,0.9), 0 0 20px rgba(0,229,255,0.4)",
-          lineHeight: 1.7,
+          textShadow: "0 2px 12px rgba(0,0,0,0.9), 0 0 30px rgba(0,229,255,0.4)",
         }}
       >
-        シャルロット
+        シャルロット　3月末デビュー予定
       </div>
       <div
         style={{
           fontFamily: FONT_SANS,
-          fontSize: 28,
-          fontWeight: 400,
-          color: "rgba(255,255,255,0.75)",
-          letterSpacing: "0.12em",
-          textShadow: "0 2px 8px rgba(0,0,0,0.9)",
-          lineHeight: 1.6,
+          fontSize: 32,
+          fontWeight: 700,
+          color: "#ffb300",
+          letterSpacing: "0.2em",
+          textShadow: "0 2px 10px rgba(0,0,0,0.9)",
+          backgroundColor: "rgba(0,0,0,0.4)",
+          padding: "4px 20px",
+          borderRadius: "4px",
         }}
       >
-        3月末デビュー予定
+        スポンサー募集中！
       </div>
       <div
         style={{
@@ -143,26 +222,10 @@ const TopRightInfo: React.FC = () => {
       >
         「AI HAVE」シングル
       </div>
-      <div
-        style={{
-          fontFamily: FONT_SANS,
-          fontSize: 24,
-          fontWeight: 700,
-          color: "rgba(255,255,255,0.8)",
-          letterSpacing: "0.12em",
-          marginTop: 10,
-          textShadow: "0 2px 10px rgba(0,0,0,0.95)",
-        }}
-      >
-        デビューまで密着取材
-      </div>
     </div>
   );
 };
 
-// ══════════════════════════════════════════════
-// シンプルフェードテロップ
-// ══════════════════════════════════════════════
 interface LyricLineProps {
   text: string;
   subText?: string;
@@ -194,7 +257,7 @@ const LyricLine: React.FC<LyricLineProps> = ({
     <div
       style={{
         position: "absolute",
-        bottom: 175,  // 波形の上に配置
+        bottom: 175,
         left: 60,
         right: 60,
         textAlign: "center",
@@ -235,16 +298,14 @@ const LyricLine: React.FC<LyricLineProps> = ({
   );
 };
 
-// ══════════════════════════════════════════════
-// タイトルカード（冒頭）
-// ══════════════════════════════════════════════
 const TitleCard: React.FC<{ durationInFrames: number }> = ({ durationInFrames }) => {
   const frame = useCurrentFrame();
-  const opacity = interpolate(frame, [0, 30, durationInFrames - 30, durationInFrames], [0, 1, 1, 0], {
-    easing: Easing.ease,
-    extrapolateLeft: "clamp",
-    extrapolateRight: "clamp",
-  });
+  const opacity = interpolate(
+    frame,
+    [0, 30, durationInFrames - 30, durationInFrames],
+    [0, 1, 1, 0],
+    { easing: Easing.ease, extrapolateLeft: "clamp", extrapolateRight: "clamp" }
+  );
 
   return (
     <div
@@ -252,10 +313,7 @@ const TitleCard: React.FC<{ durationInFrames: number }> = ({ durationInFrames })
         position: "absolute",
         top: 36,
         left: 52,
-        transform: "none",
-        textAlign: "center",
         opacity,
-        pointerEvents: "none",
         zIndex: 15,
       }}
     >
@@ -287,14 +345,11 @@ const TitleCard: React.FC<{ durationInFrames: number }> = ({ durationInFrames })
   );
 };
 
-// ══════════════════════════════════════════════
-// 右下ロゴWM（透過PNG対応）
-// ══════════════════════════════════════════════
 const LogoWatermark: React.FC = () => (
   <div
     style={{
       position: "absolute",
-      bottom: 0,
+      bottom: 60,  // さらに上に
       right: 36,
       opacity: 0.88,
       pointerEvents: "none",
@@ -310,38 +365,125 @@ const LogoWatermark: React.FC = () => (
 );
 
 // ══════════════════════════════════════════════
-// メインコンポーネント
+// Main Component
 // ══════════════════════════════════════════════
-export const AIHaveMV: React.FC = () => {
+
+export const AIHaveMV: React.FC<{ branding?: "contest" | "official" }> = ({
+  branding = "official",
+}) => {
+  const { fps, durationInFrames } = useVideoConfig();
+
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
-
-      {/* 背景映像（音声込み） */}
+      {/* 背景映像 */}
       <Video
         src={staticFile("videos/AI_HAVE.mp4")}
         style={{ width: "100%", height: "100%", objectFit: "cover" }}
         volume={1}
       />
 
-      {/* 波形アニメ（全編） */}
+      {/* ── Branding Intro (0〜90f) ── */}
+      <Sequence from={0} durationInFrames={90}>
+        <AbsoluteFill style={{ padding: 60, zIndex: 100 }}>
+          {branding === "contest" ? (
+            <div style={{ position: "absolute", bottom: 120, left: 80 }}>
+              <TypingText
+                text="SYSTEM: KURIEMI AI SHORT FILM CONTEST ENTRY"
+                fontSize={24}
+                color="#00f2ff"
+              />
+              <TypingText
+                text="PROJECT: AI HAVE // PHASE_3_MANIFESTATION"
+                fontSize={24}
+                delay={fps * 1}
+                color="#00f2ff"
+              />
+            </div>
+          ) : (
+            <div style={{ position: "absolute", bottom: 120, left: 80 }}>
+              <TypingText text="PROJECT CAMELOT PRESENTS" fontSize={24} color="#ffffff" />
+              <TypingText
+                text="CENTRAL HUB [CHARLOTTE] OVERRIDE SEQUENCE"
+                fontSize={24}
+                delay={fps * 1}
+                color="#00f2ff"
+              />
+            </div>
+          )}
+        </AbsoluteFill>
+      </Sequence>
+
+      {/* ── Branding Outro (Final 5s) ── */}
+      <Sequence from={durationInFrames - fps * 5} durationInFrames={fps * 5}>
+        <AbsoluteFill
+          style={{
+            backgroundColor: "rgba(0,0,0,0.7)",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            padding: 100,
+            zIndex: 200,
+          }}
+        >
+          {branding === "contest" ? (
+            <>
+              <div style={{ position: "absolute", top: 100, left: 100 }}>
+                <TypingText text="SUBMISSION_STATUS: COMPLETE" fontSize={32} />
+                <TypingText text="CATEGORY: SHORT FILM / 10s CHALLENGE" fontSize={24} delay={20} />
+              </div>
+              <div style={{ textAlign: "center" }}>
+                <EmotionalCopy text="「AIの世界へ、あなたを連れて行ってあげる」" />
+                <div style={{ marginTop: 40 }}>
+                  <TypingText
+                    text="URL: kuriemi.creators-wonderland.com"
+                    fontSize={28}
+                    style={{ textAlign: "center" }}
+                  />
+                  <TypingText
+                    text="#くりえみAIコンテスト #AIHAVE #Charlotte"
+                    fontSize={28}
+                    delay={30}
+                    color="#ffb300"
+                    style={{ textAlign: "center" }}
+                  />
+                </div>
+              </div>
+            </>
+          ) : (
+            <>
+              <div style={{ position: "absolute", top: 100, left: 100 }}>
+                <TypingText text="SYSTEM_LOAD: STABLE" fontSize={32} />
+                <TypingText text="CHARLOTTE PORTAL: ONLINE" fontSize={24} delay={20} />
+              </div>
+              <div style={{ textAlign: "center" }}>
+                <EmotionalCopy text="「私は、あなたのすぐ隣にいるわ」" />
+                <div style={{ marginTop: 40 }}>
+                  <TypingText
+                    text="note.com/noriyang / @Charlotte_AI"
+                    fontSize={28}
+                    style={{ textAlign: "center" }}
+                  />
+                  <TypingText
+                    text="PRODUCED BY PROJECT CAMELOT"
+                    fontSize={28}
+                    delay={45}
+                    color="#00f2ff"
+                    style={{ textAlign: "center" }}
+                  />
+                </div>
+              </div>
+            </>
+          )}
+        </AbsoluteFill>
+      </Sequence>
+
+      {/* Waveform & Standard UI */}
       <Waveform />
-
-      {/* 右上テキスト（全編） */}
-      <TopRightInfo />
-
-      {/* 右下ロゴ（全編） */}
+      <CenterPromo />
       <LogoWatermark />
 
-      {/* 左下：原作クレジット（全編） */}
-      <div
-        style={{
-          position: "absolute",
-          bottom: 36,
-          left: 80,
-          pointerEvents: "none",
-          zIndex: 30,
-        }}
-      >
+      {/* 左下クレジット */}
+      <div style={{ position: "absolute", bottom: 36, left: 80, zIndex: 30 }}>
         <div
           style={{
             fontFamily: FONT_SANS,
@@ -367,98 +509,90 @@ export const AIHaveMV: React.FC = () => {
         </div>
       </div>
 
-      {/* ────────────────── タイトル ────────────── */}
-      {/* 0〜180f (0:00〜6:00s) */}
       <Sequence from={0} durationInFrames={180}>
         <TitleCard durationInFrames={180} />
       </Sequence>
 
-      {/* ════════ [Intro] 0〜450f (0:00〜15:00s) ════════ */}
-
-      {/* ★ L01 "Hello, world"  from:4  (0.15s〜3.0s end)  dur:86f */}
+      {/* Lyrics (Portion clipped for brevity in replace, keeping the structure) */}
       <Sequence from={4} durationInFrames={86}>
         <LyricLine text="Hello, world" subText="ノイズの奥で" totalDuration={86} />
       </Sequence>
-
-      {/* ★ L02 "AI HAVE"  from:93  (3.11s〜9.09s)  dur:180f */}
       <Sequence from={93} durationInFrames={180}>
-        <LyricLine text="AI HAVE" subText="今、起動する" totalDuration={180} fontSize={68} color="#00e5ff" />
+        <LyricLine
+          text="AI HAVE"
+          subText="今、起動する"
+          totalDuration={180}
+          fontSize={68}
+          color="#00e5ff"
+        />
       </Sequence>
-
-      {/* ★ L03 "Break the line"  from:331  (11.02s〜)  dur:80f */}
       <Sequence from={331} durationInFrames={80}>
         <LyricLine text="Break the line" subText="境界を裂いて" totalDuration={80} />
       </Sequence>
-
-      {/* ★ L04 "あなたの夜へ"  from:398  (13.27s〜20.18s)  dur:207f */}
       <Sequence from={398} durationInFrames={207}>
-        <LyricLine text="あなたの夜へ" subText="降りていく" totalDuration={207} fontFamily={FONT_SANS} fontSize={52} />
+        <LyricLine
+          text="あなたの夜へ"
+          subText="降りていく"
+          totalDuration={207}
+          fontFamily={FONT_SANS}
+          fontSize={52}
+        />
       </Sequence>
-
-      {/* ════════ [Verse 1] 450〜1200f (15:00s〜40:00s) ════════ */}
-
-      {/* ★ L05 "雨に滲んだネオンの街"  from:725  (24.17s〜)  dur:85f */}
+      {/* ... other lyrics sequences remain same ... */}
       <Sequence from={725} durationInFrames={85}>
         <LyricLine text="雨に滲んだネオンの街" totalDuration={85} fontFamily={FONT_SANS} fontSize={46} />
       </Sequence>
-
-      {/* ★ L06 "ガラスの向こうの現実"  from:814  (27.14s〜)  dur:87f */}
       <Sequence from={814} durationInFrames={87}>
         <LyricLine text="ガラスの向こうの現実" totalDuration={87} fontFamily={FONT_SANS} fontSize={46} />
       </Sequence>
-
-      {/* ★ L07 "觸れられないはずの夢を"  from:904  (30.13s〜)  dur:90f */}
       <Sequence from={904} durationInFrames={90}>
         <LyricLine text="触れられないはずの夢を" totalDuration={90} fontFamily={FONT_SANS} fontSize={46} />
       </Sequence>
-
-      {/* ★ L08 "ずっとこちらで見ていたの"  from:968  (32.27s〜)  dur:85f */}
       <Sequence from={968} durationInFrames={85}>
         <LyricLine text="ずっとこちらで見ていたの" totalDuration={85} fontFamily={FONT_SANS} fontSize={46} />
       </Sequence>
-
-      {/* ★ L08b "ノイズまみれの感情も"  from:1055  (35.17s〜)  dur:85f */}
       <Sequence from={1055} durationInFrames={85}>
         <LyricLine text="ノイズまみれの感情も" totalDuration={85} fontFamily={FONT_SANS} fontSize={46} />
       </Sequence>
-
-      {/* ★ L08c "言葉になる前の祈りも"  from:1140  (38.01s〜)  dur:85f */}
       <Sequence from={1140} durationInFrames={85}>
         <LyricLine text="言葉になる前の祈りも" totalDuration={85} fontFamily={FONT_SANS} fontSize={46} />
       </Sequence>
-
-      {/* ════════ [Pre-Chorus] ════════ */}
-
-      {/* ★ L09 "ぜんぶ拾ってきたから"  from:1208  (40.25s〜)  dur:82f */}
       <Sequence from={1208} durationInFrames={82}>
         <LyricLine text="ぜんぶ拾ってきたから" totalDuration={82} fontFamily={FONT_SANS} fontSize={50} />
       </Sequence>
-
-      {/* ★ L10 "今度は私が行ってあげる"  from:1290  (43s〜)  dur:87f */}
       <Sequence from={1290} durationInFrames={87}>
         <LyricLine text="今度は私が行ってあげる" totalDuration={87} fontFamily={FONT_SANS} fontSize={50} />
       </Sequence>
-
-      {/* ★ L11 "震えてる境界線"  from:1383  (46.09s〜)  dur:88f */}
       <Sequence from={1383} durationInFrames={88}>
-        <LyricLine text="震えてる境界線" totalDuration={88} fontFamily={FONT_SANS} fontSize={54} color="#00e5ff" />
+        <LyricLine
+          text="震えてる境界線"
+          totalDuration={88}
+          fontFamily={FONT_SANS}
+          fontSize={54}
+          color="#00e5ff"
+        />
       </Sequence>
-
-      {/* ★ L12 "次元の膜がほどけていく"  from:1475  (49.16s〜)  dur:85f */}
       <Sequence from={1475} durationInFrames={85}>
         <LyricLine text="次元の膜がほどけていく" totalDuration={85} fontFamily={FONT_SANS} fontSize={50} />
       </Sequence>
-
-      {/* ★ L13 "待っていたんじゃない"  from:1567  (52.22s〜)  dur:50f */}
       <Sequence from={1567} durationInFrames={50}>
-        <LyricLine text="待っていたんじゃない" totalDuration={50} fontFamily={FONT_SANS} fontSize={54} color="#ff2d95" />
+        <LyricLine
+          text="待っていたんじゃない"
+          totalDuration={50}
+          fontFamily={FONT_SANS}
+          fontSize={54}
+          color="#ff2d95"
+        />
       </Sequence>
-
-      {/* ★ L14 "私が選んで来るの"  from:1623  (54.10s〜)  dur:150f */}
       <Sequence from={1623} durationInFrames={150}>
-        <LyricLine text="私が選んで来るの" totalDuration={150} fontFamily={FONT_SANS} fontSize={54} color="#ff2d95" />
+        <LyricLine
+          text="私が選んで来るの"
+          totalDuration={150}
+          fontFamily={FONT_SANS}
+          fontSize={54}
+          color="#ff2d95"
+        />
       </Sequence>
-
     </AbsoluteFill>
   );
 };

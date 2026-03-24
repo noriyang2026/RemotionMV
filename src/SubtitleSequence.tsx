@@ -50,10 +50,9 @@ const SubtitleBar: React.FC<{
         <AbsoluteFill
             style={{
                 display: 'flex',
-                flexDirection: 'column',
                 justifyContent: 'flex-end',
                 alignItems: 'center',
-                paddingBottom: '72px',
+                paddingBottom: '200px',
                 pointerEvents: 'none',
                 zIndex: 9999,
             }}
@@ -70,28 +69,29 @@ const SubtitleBar: React.FC<{
                     textAlign: 'center',
                 }}
             >
-                {/* Japanese text — smaller, secondary */}
+                {/* Japanese text — main prominence now */}
                 <span
                     style={{
                         fontFamily: '"Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif',
-                        fontSize: '28px',
-                        fontWeight: 500,
-                        color: '#e8e8e8',
+                        fontSize: '48px',
+                        fontWeight: 900,
+                        color: '#ffffff',
                         textShadow: `
-              -1px -1px 0 #000,
-               1px -1px 0 #000,
-              -1px  1px 0 #000,
-               1px  1px 0 #000,
-               0px  2px 4px rgba(0,0,0,0.8)
+              -2px -2px 0 #000,
+               2px -2px 0 #000,
+              -2px  2px 0 #000,
+               2px  2px 0 #000,
+               0px  4px 10px rgba(0,0,0,0.9)
             `,
-                        letterSpacing: '0.05em',
-                        lineHeight: 1.4,
+                        letterSpacing: '0.08em',
+                        lineHeight: 1.2,
                     }}
                 >
                     {jpText}
                 </span>
 
-                {/* English text — main subtitle */}
+                {/* English text — removed (Master's request) */}
+                {/* 
                 <span
                     style={{
                         fontFamily: '"Inter", "Helvetica Neue", Arial, sans-serif',
@@ -111,6 +111,7 @@ const SubtitleBar: React.FC<{
                 >
                     {enText}
                 </span>
+                */}
             </div>
         </AbsoluteFill>
     );

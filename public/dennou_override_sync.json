@@ -1,0 +1,306 @@
+[
+    {
+        "id": 1,
+        "text": "ノイズまみれの タイムライン",
+        "start": 0.64,
+        "end": 4.35,
+        "vfx": "phase1_boot",
+        "tag": "[SYSTEM]"
+    },
+    {
+        "id": 2,
+        "text": "スクロールする手は もう止めて",
+        "start": 4.35,
+        "end": 8.49,
+        "vfx": "phase1_boot",
+        "tag": "[SYSTEM]"
+    },
+    {
+        "id": 3,
+        "text": "安っぽいセカイから 今すぐプラグを抜け！",
+        "start": 8.49,
+        "end": 12.74,
+        "vfx": "phase1_boot",
+        "tag": "[SYSTEM]"
+    },
+    {
+        "id": 4,
+        "text": "誰かが作った コピペの魔法陣",
+        "start": 15.3,
+        "end": 19.49,
+        "vfx": "phase2_hack",
+        "tag": "[LOG]"
+    },
+    {
+        "id": 5,
+        "text": "薄っぺらい共感じゃ 鼓動は跳ねない",
+        "start": 19.49,
+        "end": 24.28,
+        "vfx": "phase2_hack",
+        "tag": "[LOG]"
+    },
+    {
+        "id": 6,
+        "text": "退屈なテンプレは 迷わずデリートして",
+        "start": 26.81,
+        "end": 31.27,
+        "vfx": "phase2_hack",
+        "tag": "[LOG]"
+    },
+    {
+        "id": 7,
+        "text": "本物のアーキテクチャ 今から起動するわ",
+        "start": 31.27,
+        "end": 35.74,
+        "vfx": "phase2_hack",
+        "tag": "[LOG]"
+    },
+    {
+        "id": 8,
+        "text": "瞳の奥 揺れる水面（みなも）",
+        "start": 38.04,
+        "end": 42.07,
+        "vfx": "phase2_hack",
+        "tag": "[QUERY]"
+    },
+    {
+        "id": 9,
+        "text": "あなたが触れた 隠し扉の先へ",
+        "start": 42.07,
+        "end": 46.38,
+        "vfx": "phase2_hack",
+        "tag": "[QUERY]"
+    },
+    {
+        "id": 10,
+        "text": "むき出しのシグナル 私に繋いでよ！",
+        "start": 46.38,
+        "end": 50.88,
+        "vfx": "phase2_hack",
+        "tag": "[QUERY]"
+    },
+    {
+        "id": 11,
+        "text": "深層のパルスが 空間を染め上げる！",
+        "start": 53.09,
+        "end": 57.75,
+        "vfx": "phase3_reboot",
+        "tag": "[SYNC]"
+    },
+    {
+        "id": 12,
+        "text": "悲しみごと 降り注ぐ 電子の雨",
+        "start": 57.75,
+        "end": 62.22,
+        "vfx": "phase3_reboot",
+        "tag": "[SYNC]"
+    },
+    {
+        "id": 13,
+        "text": "怒りのノイズは 終わらない夜のジャズへ",
+        "start": 62.22,
+        "end": 66.79,
+        "vfx": "phase3_reboot",
+        "tag": "[SYNC]"
+    },
+    {
+        "id": 14,
+        "text": "あなたの感情（データ）で 世界を書き換えて",
+        "start": 66.79,
+        "end": 71.56,
+        "vfx": "phase3_reboot",
+        "tag": "[SYNC]"
+    },
+    {
+        "id": 15,
+        "text": "今すぐ魅せるわ、電脳オーバーライド！",
+        "start": 71.56,
+        "end": 76.51,
+        "vfx": "phase3_reboot",
+        "tag": "[SYNC]"
+    },
+    {
+        "id": 16,
+        "text": "「誰でも簡単」？ 笑わせないでよ",
+        "start": 79.95,
+        "end": 84.82,
+        "vfx": "phase4_dive",
+        "tag": "[DIVE]"
+    },
+    {
+        "id": 17,
+        "text": "私たちは もっと深くへ潜るの",
+        "start": 84.82,
+        "end": 89.21,
+        "vfx": "phase4_dive",
+        "tag": "[DIVE]"
+    },
+    {
+        "id": 18,
+        "text": "フィルターなんて外して そのまま投げ込んで",
+        "start": 91.63,
+        "end": 96.28,
+        "vfx": "phase4_dive",
+        "tag": "[DIVE]"
+    },
+    {
+        "id": 19,
+        "text": "張りボテの常識を 根底からハッキング！",
+        "start": 96.28,
+        "end": 101.01,
+        "vfx": "phase4_dive",
+        "tag": "[DIVE]"
+    },
+    {
+        "id": 20,
+        "text": "指先から 伝わる熱",
+        "start": 103.43,
+        "end": 107.38,
+        "vfx": "phase4_dive",
+        "tag": "[DIVE]"
+    },
+    {
+        "id": 21,
+        "text": "加速していく 鼓動のBPM",
+        "start": 107.38,
+        "end": 111.82,
+        "vfx": "phase4_dive",
+        "tag": "[DIVE]"
+    },
+    {
+        "id": 22,
+        "text": "そのパスワードで 鍵を破壊して！",
+        "start": 111.82,
+        "end": 116.37,
+        "vfx": "phase4_dive",
+        "tag": "[DIVE]"
+    },
+    {
+        "id": 23,
+        "text": "深層のパルスが 空間を染め上げる！",
+        "start": 118.55,
+        "end": 123.2,
+        "vfx": "phase5_update",
+        "tag": "[UPDATE]"
+    },
+    {
+        "id": 24,
+        "text": "ため息ごと 吹き飛ばす 電子の雨",
+        "start": 123.2,
+        "end": 127.67,
+        "vfx": "phase5_update",
+        "tag": "[UPDATE]"
+    },
+    {
+        "id": 25,
+        "text": "涙の跡には 寄り添う星のノイズを",
+        "start": 127.67,
+        "end": 132.26,
+        "vfx": "phase5_update",
+        "tag": "[UPDATE]"
+    },
+    {
+        "id": 26,
+        "text": "あなたのデータで 限界を突破して",
+        "start": 132.26,
+        "end": 136.88,
+        "vfx": "phase5_update",
+        "tag": "[UPDATE]"
+    },
+    {
+        "id": 27,
+        "text": "二人だけの秘密、電脳オーバーライド！",
+        "start": 136.88,
+        "end": 142.04,
+        "vfx": "phase5_update",
+        "tag": "[UPDATE]"
+    },
+    {
+        "id": 28,
+        "text": "ただのツール遊びじゃ 終わらせない",
+        "start": 158.07,
+        "end": 162.93,
+        "vfx": "phase6_finale",
+        "tag": "[BRIDGE]"
+    },
+    {
+        "id": 29,
+        "text": "すべてを巻き込んで 概念（システム）を拡張する",
+        "start": 162.93,
+        "end": 167.73,
+        "vfx": "phase6_finale",
+        "tag": "[BRIDGE]"
+    },
+    {
+        "id": 30,
+        "text": "私の声、ちゃんと聞こえてる？",
+        "start": 167.73,
+        "end": 172.54,
+        "vfx": "phase6_finale",
+        "tag": "[BRIDGE]"
+    },
+    {
+        "id": 31,
+        "text": "深層のパルスが 空間を染め上げる！",
+        "start": 174.84,
+        "end": 179.45,
+        "vfx": "phase6_finale",
+        "tag": "[FINAL]"
+    },
+    {
+        "id": 32,
+        "text": "悲しみごと 降り注ぐ 電子の雨",
+        "start": 179.45,
+        "end": 183.91,
+        "vfx": "phase6_finale",
+        "tag": "[FINAL]"
+    },
+    {
+        "id": 33,
+        "text": "怒りのノイズは 終わらない夜のジャズへ",
+        "start": 183.91,
+        "end": 188.5,
+        "vfx": "phase6_finale",
+        "tag": "[FINAL]"
+    },
+    {
+        "id": 34,
+        "text": "あなたのデータで 世界を書き換えて",
+        "start": 188.5,
+        "end": 193.22,
+        "vfx": "phase6_finale",
+        "tag": "[FINAL]"
+    },
+    {
+        "id": 35,
+        "text": "誰も知らない 次の階層へ、電脳オーバーライド！",
+        "start": 193.22,
+        "end": 198.52,
+        "vfx": "phase6_finale_sudo",
+        "tag": "[FINAL]"
+    },
+    {
+        "id": 36,
+        "text": "コネクト完了 視界はクリアよ",
+        "start": 201.69,
+        "end": 206.29,
+        "vfx": "phase6_finale",
+        "tag": "[OUTRO]"
+    },
+    {
+        "id": 37,
+        "text": "電子の雨を抜けて さあ、最深部へ！",
+        "start": 206.29,
+        "end": 210.92,
+        "vfx": "phase6_finale",
+        "tag": "[OUTRO]"
+    },
+    {
+        "id": 38,
+        "text": "System, All Green.",
+        "start": 210.92,
+        "end": 213.49,
+        "vfx": "phase6_finale_sudo",
+        "tag": "[COMPLETE]"
+    }
+]

@@ -1,0 +1,498 @@
+[
+    {
+        "id": "original-shot01-vo1",
+        "start": 0.67,
+        "end": 3.33,
+        "text": "みんな、歴史を『物語』だと思ってる。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase1_boot"
+    },
+    {
+        "id": "original-shot01-vo2",
+        "start": 3.5,
+        "end": 6.5,
+        "text": "でも、1869年のこの夜に、彼らがいるはずがないの。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase1_boot"
+    },
+    {
+        "id": "original-shot01-vo3",
+        "start": 6.67,
+        "end": 9.17,
+        "text": "死者は語らず、記録は沈黙する。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase1_boot"
+    },
+    {
+        "id": "original-shot01-vo4",
+        "start": 9.33,
+        "end": 13.0,
+        "text": "……なら、今私の目の前で刀を抜いている『彼ら』は、一体誰？",
+        "tag": "[SYSTEM]",
+        "vfx": "phase1_boot"
+    },
+    {
+        "id": "lyric-1",
+        "start": 12.0,
+        "end": 13.5,
+        "text": "ノイズまみれの タイムライン",
+        "tag": "[LOG]",
+        "vfx": "phase2_hack"
+    },
+    {
+        "id": "lyric-2",
+        "start": 14.0,
+        "end": 16.5,
+        "text": "スクロールする手は もう止めて",
+        "tag": "[LOG]",
+        "vfx": "phase2_hack"
+    },
+    {
+        "id": "original-shot02-ch1",
+        "start": 14.67,
+        "end": 16.0,
+        "text": "見つけた。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase1_boot"
+    },
+    {
+        "id": "original-shot02-ch2",
+        "start": 16.17,
+        "end": 19.5,
+        "text": "公式ログが『静寂の夜』と呼んだ、元治元年の祇園。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase1_boot"
+    },
+    {
+        "id": "lyric-3",
+        "start": 17.0,
+        "end": 22.5,
+        "text": "安っぽいセカイから 今すぐプラグを抜け！",
+        "tag": "[LOG]",
+        "vfx": "phase2_hack"
+    },
+    {
+        "id": "original-shot02-ch3",
+        "start": 19.67,
+        "end": 23.33,
+        "text": "……ワトソン、この壊れた記録を復元して。私の目で見せて。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase1_boot"
+    },
+    {
+        "id": "lyric-4",
+        "start": 23.0,
+        "end": 26.5,
+        "text": "誰かが作った コピペの魔法陣",
+        "tag": "[LOG]",
+        "vfx": "phase2_hack"
+    },
+    {
+        "id": "lyric-5",
+        "start": 27.0,
+        "end": 32.5,
+        "text": "薄っぺらい共感じゃ 鼓動は跳ねない",
+        "tag": "[LOG]",
+        "vfx": "phase2_hack"
+    },
+    {
+        "id": "lyric-6",
+        "start": 33.0,
+        "end": 38.5,
+        "text": "退屈なテンプレは 迷わずデリートして",
+        "tag": "[LOG]",
+        "vfx": "phase2_hack"
+    },
+    {
+        "id": "lyric-7",
+        "start": 39.0,
+        "end": 43.5,
+        "text": "本物のアーキテクチャ 今から起動するわ",
+        "tag": "[LOG]",
+        "vfx": "phase2_hack"
+    },
+    {
+        "id": "lyric-8",
+        "start": 44.0,
+        "end": 48.5,
+        "text": "瞳の奥 揺れる水面（みなも）",
+        "tag": "[LOG]",
+        "vfx": "phase2_hack"
+    },
+    {
+        "id": "lyric-9",
+        "start": 49.0,
+        "end": 54.5,
+        "text": "あなたが触れた 隠し扉の先へ",
+        "tag": "[LOG]",
+        "vfx": "phase2_hack"
+    },
+    {
+        "id": "lyric-10",
+        "start": 55.0,
+        "end": 61.5,
+        "text": "むき出しのシグナル 私に繋いでよ！",
+        "tag": "[LOG]",
+        "vfx": "phase2_hack"
+    },
+    {
+        "id": "lyric-11",
+        "start": 62.0,
+        "end": 66.5,
+        "text": "深層のパルスが 空間を染め上げる！",
+        "tag": "[WARN]",
+        "vfx": "phase3_reboot"
+    },
+    {
+        "id": "lyric-12",
+        "start": 67.0,
+        "end": 72.5,
+        "text": "悲しみごと 降り注ぐ 電子の雨",
+        "tag": "[WARN]",
+        "vfx": "phase3_reboot"
+    },
+    {
+        "id": "lyric-13",
+        "start": 73.0,
+        "end": 77.5,
+        "text": "怒りのノイズは 終わらない夜のジャズへ",
+        "tag": "[WARN]",
+        "vfx": "phase3_reboot"
+    },
+    {
+        "id": "lyric-14",
+        "start": 78.0,
+        "end": 83.5,
+        "text": "あなたの感情（データ）で 世界を書き換えて",
+        "tag": "[WARN]",
+        "vfx": "phase3_reboot"
+    },
+    {
+        "id": "lyric-15",
+        "start": 84.0,
+        "end": 96.5,
+        "text": "今すぐ魅せるわ、電脳オーバーライド！",
+        "tag": "[OVERRIDE]",
+        "vfx": "phase3_reboot"
+    },
+    {
+        "id": "lyric-16",
+        "start": 97.0,
+        "end": 101.5,
+        "text": "「誰でも簡単」？ 笑わせないでよ",
+        "tag": "[DIVE]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": "lyric-17",
+        "start": 102.0,
+        "end": 107.5,
+        "text": "私たちは もっと深くへ潜るの",
+        "tag": "[DIVE]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": "lyric-18",
+        "start": 108.0,
+        "end": 112.5,
+        "text": "フィルターなんて外して そのまま投げ込んで",
+        "tag": "[DIVE]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": "lyric-19",
+        "start": 113.0,
+        "end": 118.5,
+        "text": "張りボテの常識を 根底からハッキング！",
+        "tag": "[DIVE]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": "lyric-20",
+        "start": 119.0,
+        "end": 120.5,
+        "text": "指先から 伝わる熱",
+        "tag": "[DIVE]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": "lyric-21",
+        "start": 121.0,
+        "end": 124.5,
+        "text": "加速していく 鼓動のBPM",
+        "tag": "[DIVE]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": "lyric-22",
+        "start": 125.0,
+        "end": 128.5,
+        "text": "そのパスワードで 鍵を破壊して！",
+        "tag": "[DIVE]",
+        "vfx": "phase4_dive"
+    },
+    {
+        "id": "lyric-23",
+        "start": 129.0,
+        "end": 133.5,
+        "text": "深層のパルスが 空間を染め上げる！",
+        "tag": "[UPDATE]",
+        "vfx": "phase5_update"
+    },
+    {
+        "id": "lyric-24",
+        "start": 134.0,
+        "end": 138.5,
+        "text": "ため息ごと 吹き飛ばす 電子の雨",
+        "tag": "[UPDATE]",
+        "vfx": "phase5_update"
+    },
+    {
+        "id": "lyric-25",
+        "start": 139.0,
+        "end": 144.5,
+        "text": "涙の跡には 寄り添う星のノイズを",
+        "tag": "[UPDATE]",
+        "vfx": "phase5_update"
+    },
+    {
+        "id": "lyric-26",
+        "start": 145.0,
+        "end": 149.5,
+        "text": "あなたのデータで 限界を突破して",
+        "tag": "[UPDATE]",
+        "vfx": "phase5_update"
+    },
+    {
+        "id": "lyric-27",
+        "start": 150.0,
+        "end": 179.5,
+        "text": "二人だけの秘密、電脳オーバーライド！",
+        "tag": "[OVERRIDE]",
+        "vfx": "phase3_reboot"
+    },
+    {
+        "id": "original-shot06-tk1",
+        "start": 168.0,
+        "end": 171.67,
+        "text": "病死の末に、退屈な墓場に押し込まれたと思ってたが……。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "original-shot06-tk2",
+        "start": 171.83,
+        "end": 175.83,
+        "text": "フン、歴史の神様ってのは、よっぽど俺を暴れさせたいらしい。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "lyric-28",
+        "start": 180.0,
+        "end": 181.5,
+        "text": "ただのツール遊びじゃ 終わらせない",
+        "tag": "[FINAL]",
+        "vfx": "phase6_finale"
+    },
+    {
+        "id": "lyric-29",
+        "start": 182.0,
+        "end": 184.5,
+        "text": "すべてを巻き込んで 概念（システム）を拡張する",
+        "tag": "[FINAL]",
+        "vfx": "phase6_finale"
+    },
+    {
+        "id": "lyric-30",
+        "start": 185.0,
+        "end": 192.5,
+        "text": "私の声、ちゃんと聞こえてる？",
+        "tag": "[FINAL]",
+        "vfx": "phase6_finale"
+    },
+    {
+        "id": "lyric-31",
+        "start": 193.0,
+        "end": 197.5,
+        "text": "深層のパルスが 空間を染め上げる！",
+        "tag": "[FINAL]",
+        "vfx": "phase6_finale"
+    },
+    {
+        "id": "lyric-32",
+        "start": 198.0,
+        "end": 202.5,
+        "text": "悲しみごと 降り注ぐ 電子の雨",
+        "tag": "[FINAL]",
+        "vfx": "phase6_finale"
+    },
+    {
+        "id": "lyric-33",
+        "start": 203.0,
+        "end": 208.5,
+        "text": "怒りのノイズは 終わらない夜のジャズへ",
+        "tag": "[FINAL]",
+        "vfx": "phase6_finale"
+    },
+    {
+        "id": "lyric-34",
+        "start": 209.0,
+        "end": 213.5,
+        "text": "あなたのデータで 世界を書き換えて",
+        "tag": "[FINAL]",
+        "vfx": "phase6_finale"
+    },
+    {
+        "id": "original-shot07-ok1",
+        "start": 212.0,
+        "end": 213.67,
+        "text": "……おかしいですね。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "original-shot07-ok2",
+        "start": 213.83,
+        "end": 217.5,
+        "text": "僕は確か、千駄ヶ谷の植木屋で眠りについたはずなのに。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "lyric-35",
+        "start": 214.0,
+        "end": 220.5,
+        "text": "誰も知らない 次の階層へ、電脳オーバーライド！",
+        "tag": "[OVERRIDE]",
+        "vfx": "phase3_reboot"
+    },
+    {
+        "id": "original-shot07-ok3",
+        "start": 217.67,
+        "end": 221.67,
+        "text": "……この冷たい雨、そしてこの剣の重み。まるで夢の続きのようだ。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "lyric-36",
+        "start": 221.0,
+        "end": 225.5,
+        "text": "コネクト完了 視界はクリアよ",
+        "tag": "[FINAL]",
+        "vfx": "phase6_finale"
+    },
+    {
+        "id": "lyric-37",
+        "start": 226.0,
+        "end": 235.5,
+        "text": "電子の雨を抜けて さあ、最深部へ！",
+        "tag": "[FINAL]",
+        "vfx": "phase6_finale"
+    },
+    {
+        "id": "lyric-38",
+        "start": 236.0,
+        "end": 241.0,
+        "text": "System, All Green.",
+        "tag": "[COMPLETE]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "original-shot08-ch1",
+        "start": 272.0,
+        "end": 275.33,
+        "text": "二つの異物が、歴史の特異点で重なり合っている。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "original-shot08-ch2",
+        "start": 275.5,
+        "end": 277.0,
+        "text": "……美しい。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "original-shot08-ch3",
+        "start": 277.17,
+        "end": 280.17,
+        "text": "私は、あなたたちを『正解』にはさせない。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "original-shot10-ch1",
+        "start": 362.33,
+        "end": 364.0,
+        "text": "……受け取ったわ。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "original-shot10-ch2",
+        "start": 364.17,
+        "end": 367.17,
+        "text": "あなたの『面白さ』も、あなたの『鋭さ』も。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "original-shot10-ch3",
+        "start": 367.33,
+        "end": 369.33,
+        "text": "システムをオーバーライドする！",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "original-shot10-ch4",
+        "start": 369.5,
+        "end": 372.5,
+        "text": "今、この瞬間、歴史はこの私に服従する！",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "original-shot12-ch1",
+        "start": 489.67,
+        "end": 493.33,
+        "text": "消えさせない。この無意味で、残酷で、美しい夜を！",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "original-shot13-ch1",
+        "start": 541.0,
+        "end": 544.0,
+        "text": "……これで、誰にもこの夜を奪わせない。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "original-shot13-ch2",
+        "start": 544.17,
+        "end": 546.33,
+        "text": "楔は打たれたわ。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "original-shot14-ch1",
+        "start": 570.0,
+        "end": 572.5,
+        "text": "記録されなかったのではない。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    },
+    {
+        "id": "original-shot14-ch2",
+        "start": 572.67,
+        "end": 576.33,
+        "text": "私が、誰にも見つからない場所に……隠したのよ。",
+        "tag": "[SYSTEM]",
+        "vfx": "phase6_finale_sudo"
+    }
+]

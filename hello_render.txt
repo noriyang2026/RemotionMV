@@ -1,0 +1,6 @@
+﻿[90mRemotion root directory:[39m [90mC:\WATSON_APP\RemotionMV[39m
+[90mApplied configuration from C:\WATSON_APP\RemotionMV\remotion.config.ts.[39m
+[90mChecking if[39m [90mHelloWorld[39m [90mis the entry file[39m
+[90mSelected[39m [90mC:\WATSON_APP\RemotionMV\src\index.ts[39m [90mas the entry point because file exists and is a common entry point and no entry point was explicitly selected[39m
+[90m[90mEntry point = C:\WATSON_APP\RemotionMV\src\index.ts (common paths)[39m[90m[39m
+[90mEnsuring browser executable[39m

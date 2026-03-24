@@ -1,0 +1,60 @@
+﻿Bundling 6%
+Bundling 19%
+Bundling 52%
+Bundling 63%
+Bundling 69%
+Bundling 74%
+Bundling 80%
+Bundling 85%
+Bundling 90%
+Bundling 95%
+Bundling 100%
+Copying public dir 80.3 MB
+Copying public dir 135.1 MB
+Copying public dir 135.1 MB
+Copying public dir 145.7 MB
+Copying public dir 182.4 MB
+Copying public dir 237.2 MB
+Copying public dir 260.1 MB
+Copying public dir 306.8 MB
+Copying public dir 371.1 MB
+Getting composition
+[90mComposition          TikTokShort[39m
+[90mCodec                h264[39m
+[90mOutput               out/TikTokShort.mp4[39m
+[90mConcurrency          1x[39m
+Rendered 0/31
+Rendered 1/31, time remaining: 52s
+Rendered 2/31, time remaining: 27s
+Rendered 3/31, time remaining: 19s
+Rendered 4/31, time remaining: 14s
+Rendered 5/31, time remaining: 12s
+Rendered 6/31, time remaining: 10s
+Rendered 7/31, time remaining: 8s
+Rendered 8/31, time remaining: 7s
+Rendered 9/31, time remaining: 7s
+Rendered 10/31, time remaining: 6s
+Rendered 11/31, time remaining: 5s
+Rendered 12/31, time remaining: 5s
+Rendered 13/31, time remaining: 4s
+Rendered 14/31, time remaining: 4s
+Rendered 15/31, time remaining: 4s
+Rendered 16/31, time remaining: 3s
+Rendered 17/31, time remaining: 3s
+Rendered 18/31, time remaining: 3s
+Rendered 19/31, time remaining: 2s
+Rendered 20/31, time remaining: 2s
+Rendered 21/31, time remaining: 2s
+Rendered 22/31, time remaining: 1s
+Rendered 23/31, time remaining: 1s
+Rendered 24/31, time remaining: 1s
+Rendered 25/31, time remaining: 1s
+Rendered 26/31, time remaining: 1s
+Rendered 27/31, time remaining: 0s
+Rendered 28/31, time remaining: 0s
+Rendered 29/31, time remaining: 0s
+Rendered 30/31, time remaining: 0s
+Rendered 31/31
+Encoded 12/31
+Encoded 31/31
+[34m笳・                   out/TikTokShort.mp4[39m [90m381.7 kB[39m

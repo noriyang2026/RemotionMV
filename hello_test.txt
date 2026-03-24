@@ -1,0 +1,40 @@
+﻿Bundling 6%
+Bundling 24%
+Bundling 52%
+Bundling 63%
+Bundling 69%
+Bundling 74%
+Bundling 80%
+Bundling 85%
+Bundling 90%
+Bundling 95%
+Bundling 100%
+Copying public dir 80.3 MB
+Copying public dir 135.1 MB
+Copying public dir 135.1 MB
+Copying public dir 145.7 MB
+Copying public dir 182.4 MB
+Copying public dir 237.2 MB
+Copying public dir 260.1 MB
+Copying public dir 306.8 MB
+Copying public dir 371.1 MB
+Getting composition
+[90mComposition          HelloWorld[39m
+[90mCodec                h264[39m
+[90mOutput               out/HelloWorld.mp4[39m
+[90mConcurrency          8x[39m
+Rendered 0/11
+Rendered 1/11, time remaining: 2m 26s
+Rendered 2/11, time remaining: 1m 5s
+Rendered 3/11, time remaining: 39s
+Rendered 4/11, time remaining: 25s
+Rendered 5/11, time remaining: 17s
+Rendered 6/11, time remaining: 12s
+Rendered 7/11, time remaining: 8s
+Rendered 8/11, time remaining: 5s
+Rendered 9/11, time remaining: 3s
+Rendered 10/11, time remaining: 1s
+Rendered 11/11
+Encoded 9/11
+Encoded 11/11
+[34m+                    out/HelloWorld.mp4[39m [90m81.7 kB[39m
